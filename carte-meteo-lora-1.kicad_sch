@@ -5011,6 +5011,234 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Sensor_Humidity:HDC1080"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -6.35 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "HDC1080"
+				(at 3.81 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_SON:Texas_PWSON-N6"
+				(at -1.27 -6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/hdc1080.pdf"
+				(at -10.16 6.35 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Temperature Humidity Sensor"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Package*SON:Texas*PWSON*N6*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "HDC1080_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "HDC1080_1_1"
+				(pin bidirectional line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 0 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin no_connect line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(hide yes)
+					(name "DAP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Sensor_Humidity:SHT30-DIS"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6968,6 +7196,18 @@
 		(uuid "068d07ec-e9ad-4a2e-a648-b2de55e5575d")
 	)
 	(rectangle
+		(start 118.11 114.3)
+		(end 153.67 149.86)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "4acce0c9-77d0-440f-a80c-479351ab6a40")
+	)
+	(rectangle
 		(start 15.24 151.13)
 		(end 72.39 196.85)
 		(stroke
@@ -7180,6 +7420,18 @@
 			)
 		)
 		(uuid "9cf489db-1ad8-486e-8c47-7d9f5655e3a0")
+	)
+	(text "HTU21 H/T sensor"
+		(exclude_from_sim no)
+		(at 136.144 147.574 0)
+		(effects
+			(font
+				(size 1.905 1.905)
+				(thickness 0.508)
+				(bold yes)
+			)
+		)
+		(uuid "b4f37f8d-248e-4cf4-b904-789ea4caf093")
 	)
 	(text "UART"
 		(exclude_from_sim no)
@@ -7510,6 +7762,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7bf8ba15-0675-40d9-b50a-ecfc6dd8639d")
+	)
+	(junction
+		(at 134.62 124.46)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7d58b5b1-832c-4b5c-a1ae-01ad1c1cf566")
 	)
 	(junction
 		(at 49.53 19.05)
@@ -8072,6 +8330,16 @@
 			(type default)
 		)
 		(uuid "1837546c-4eb6-420e-bdbd-547d0af6a4b8")
+	)
+	(wire
+		(pts
+			(xy 124.46 124.46) (xy 124.46 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18cc8073-2801-4efd-b44a-f594391b9cb9")
 	)
 	(wire
 		(pts
@@ -8835,6 +9103,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 123.19) (xy 134.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57dcfc6d-eb61-46e9-ad2f-19704e6250e3")
+	)
+	(wire
+		(pts
 			(xy 50.8 168.91) (xy 49.53 168.91)
 		)
 		(stroke
@@ -9102,6 +9380,16 @@
 			(type default)
 		)
 		(uuid "6c2d1e31-a221-4602-8ee5-6f1977b0c9b7")
+	)
+	(wire
+		(pts
+			(xy 134.62 125.73) (xy 134.62 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c7cdbd5-54b5-4352-9055-91811cc70462")
 	)
 	(wire
 		(pts
@@ -9495,6 +9783,16 @@
 	)
 	(wire
 		(pts
+			(xy 125.73 124.46) (xy 124.46 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8856a05b-9cef-44ee-b5c4-44c219cb8cee")
+	)
+	(wire
+		(pts
 			(xy 198.12 58.42) (xy 198.12 44.45)
 		)
 		(stroke
@@ -9702,6 +10000,16 @@
 			(type default)
 		)
 		(uuid "96f06ab6-67d8-4f62-9eb3-f2a28d15d063")
+	)
+	(wire
+		(pts
+			(xy 149.86 130.81) (xy 144.78 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96f79899-52c7-4ddf-ba8d-0bde6d22841f")
 	)
 	(wire
 		(pts
@@ -10785,6 +11093,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 140.97) (xy 134.62 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "de2988ad-d6e6-45dc-8dc8-19588ef1d3a7")
+	)
+	(wire
+		(pts
 			(xy 54.61 55.88) (xy 54.61 44.45)
 		)
 		(stroke
@@ -11035,6 +11353,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 133.35) (xy 144.78 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f22dd6f9-fc6c-48dc-9da1-a7ba337260d4")
+	)
+	(wire
+		(pts
 			(xy 49.53 55.88) (xy 54.61 55.88)
 		)
 		(stroke
@@ -11165,6 +11493,16 @@
 	)
 	(wire
 		(pts
+			(xy 134.62 124.46) (xy 133.35 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fcd45758-bf2a-43f3-98a6-4d08cb1b603c")
+	)
+	(wire
+		(pts
 			(xy 248.92 59.69) (xy 248.92 60.96)
 		)
 		(stroke
@@ -11222,6 +11560,16 @@
 			(type default)
 		)
 		(uuid "ff8f9224-206f-4bfc-9433-a5b253475cb7")
+	)
+	(label "SDA"
+		(at 149.86 133.35 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "09e0513d-905d-4f9c-9a5a-8a9e4c0bf6a2")
 	)
 	(label "ESP_D+"
 		(at 252.73 88.9 180)
@@ -11362,6 +11710,16 @@
 			(justify right bottom)
 		)
 		(uuid "97a2192a-8081-487f-aad9-b05b753b6ee2")
+	)
+	(label "SCL"
+		(at 149.86 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a221f679-5e6d-4c09-b68d-b0d2cdbe01be")
 	)
 	(label "VDD_SPI"
 		(at 251.46 55.88 180)
@@ -12678,6 +13036,129 @@
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
 					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 129.54 124.46 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "12fd9681-a46e-4a8c-8c97-4372bb17f055")
+		(property "Reference" "C46"
+			(at 125.476 119.888 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "0u1"
+			(at 125.476 122.428 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 133.35 123.4948 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 129.54 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Samsung Electro-Mechanics "
+			(at 129.54 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "CL05B104KB54PNC"
+			(at 129.54 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Y"
+			(at 129.54 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C307331"
+			(at 129.54 124.46 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d73bcd76-b864-4640-8e2e-d1f51986ad0d")
+		)
+		(pin "2"
+			(uuid "594949f7-2b6a-4763-b13f-cd57fb562f38")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
+					(reference "C46")
 					(unit 1)
 				)
 			)
@@ -14486,6 +14967,84 @@
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
 					(reference "#PWR088")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 124.46 125.73 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "45432849-e6cd-4a21-9b40-5e05e07ce9f5")
+		(property "Reference" "#PWR036"
+			(at 124.46 132.08 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 127.508 128.524 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.46 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 124.46 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 124.46 125.73 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "32b5ee07-0224-43d9-873d-89eec9f9b342")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -20356,6 +20915,83 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 134.62 123.19 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a5a59e19-0d36-4d58-9db4-a3ecf1ae9bc8")
+		(property "Reference" "#PWR053"
+			(at 134.62 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 136.144 119.126 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 134.62 123.19 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bdd74be7-dee9-42ed-871b-c29174336c04")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
+					(reference "#PWR053")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "GLCS:H5VU10U")
 		(at 60.96 184.15 270)
 		(unit 1)
@@ -24118,6 +24754,84 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 134.62 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "e062db17-7d05-4935-a52d-9d7b2abbfb48")
+		(property "Reference" "#PWR038"
+			(at 134.62 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 137.668 145.034 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 134.62 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 134.62 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 134.62 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "54acc6e4-e1c5-4432-99e3-a7e9be5acb0b")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
+					(reference "#PWR038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 116.84 184.15 0)
 		(unit 1)
 		(body_style 1)
@@ -25577,6 +26291,103 @@
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
 					(reference "#PWR032")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Sensor_Humidity:HDC1080")
+		(at 137.16 133.35 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "f745c0a4-0ac6-4865-bf04-4e4bc128dd82")
+		(property "Reference" "U7"
+			(at 146.304 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "HTU21"
+			(at 146.304 139.7 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Package_SON:Texas_PWSON-N6"
+			(at 135.89 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/hdc1080.pdf"
+			(at 127 127 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Low Power,High Accuracy Digital Humidity Sensor with Temperature Sensor"
+			(at 137.16 133.35 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "3"
+			(uuid "978219a0-2cf6-4503-83a6-b2fdbac0ed65")
+		)
+		(pin "2"
+			(uuid "f099b4ea-14f0-40ca-b4a7-99bc9335484d")
+		)
+		(pin "4"
+			(uuid "de324925-0635-4036-969b-da160a9b39c1")
+		)
+		(pin "5"
+			(uuid "a1f8fd10-6005-4c0d-9bd9-4e71bfcc7d34")
+		)
+		(pin "7"
+			(uuid "2b1b19f1-11ee-4700-a6b0-5a4b417a6544")
+		)
+		(pin "1"
+			(uuid "8ab2988c-9781-4556-9693-5fb0e1386c10")
+		)
+		(pin "6"
+			(uuid "59e5fe87-956c-472c-b8e0-cd67895d39c0")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
+					(reference "U7")
 					(unit 1)
 				)
 			)
