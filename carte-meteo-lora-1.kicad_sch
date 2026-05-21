@@ -17518,7 +17518,7 @@
 				)
 			)
 		)
-		(property "Basic" "Y"
+		(property "Basic" "E"
 			(at 227.33 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -17529,7 +17529,7 @@
 				)
 			)
 		)
-		(property "JLCPCB Part #" "C15195"
+		(property "JLCPCB Part #" "C1561"
 			(at 227.33 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -17540,7 +17540,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Samsung Electro-Mechanics "
+		(property "Manufacturer" "FH (Guangdong Fenghua Advanced Tech)"
 			(at 227.33 27.94 0)
 			(hide yes)
 			(show_name no)
@@ -17551,7 +17551,7 @@
 				)
 			)
 		)
-		(property "Manufacturer Part Number" "CL05B103KB5NNNC"
+		(property "Manufacturer Part Number" "0402CG2R7C500NT"
 			(at 227.33 27.94 0)
 			(hide yes)
 			(show_name no)
