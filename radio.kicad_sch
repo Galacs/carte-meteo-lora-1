@@ -1546,12 +1546,6 @@
 		(uuid "56ffd383-8df6-4a2e-a2e1-a30421dfc392")
 	)
 	(junction
-		(at 106.68 73.66)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "25705f6f-2e11-4718-8b08-b9db64469a2a")
-	)
-	(junction
 		(at 215.9 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1567,7 +1561,7 @@
 		(at 106.68 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "8e5bde3f-745a-41bb-ac83-2bd1ead22fb0")
+		(uuid "7ac4bd13-74ff-4155-ade7-4957a8902345")
 	)
 	(junction
 		(at 88.9 104.14)
@@ -1586,6 +1580,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c43f7566-c516-4400-814a-e61a1f9a8773")
+	)
+	(junction
+		(at 106.68 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e74aa462-1852-4730-8c51-3db3e36613b3")
 	)
 	(wire
 		(pts
@@ -1649,7 +1649,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 107.95) (xy 111.76 106.68)
+			(xy 121.92 107.95) (xy 121.92 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1659,7 +1659,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 106.68) (xy 113.03 106.68)
+			(xy 121.92 106.68) (xy 120.65 106.68)
 		)
 		(stroke
 			(width 0)
@@ -1699,7 +1699,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 76.2) (xy 113.03 76.2)
+			(xy 121.92 76.2) (xy 120.65 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1819,7 +1819,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 73.66) (xy 124.46 73.66)
+			(xy 120.65 73.66) (xy 124.46 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1929,7 +1929,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 77.47) (xy 111.76 76.2)
+			(xy 121.92 77.47) (xy 121.92 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1979,7 +1979,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 73.66) (xy 113.03 73.66)
+			(xy 106.68 73.66) (xy 110.49 73.66)
 		)
 		(stroke
 			(width 0)
@@ -1989,7 +1989,7 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 104.14) (xy 124.46 104.14)
+			(xy 120.65 104.14) (xy 124.46 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2069,7 +2069,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 104.14) (xy 113.03 104.14)
+			(xy 106.68 104.14) (xy 110.49 104.14)
 		)
 		(stroke
 			(width 0)
@@ -2455,8 +2455,7 @@
 	)
 	(symbol
 		(lib_id "GLCS:RF_switch_connector")
-		(at 118.11 105.41 0)
-		(mirror y)
+		(at 115.57 105.41 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2466,7 +2465,7 @@
 		(dnp no)
 		(uuid "239ea9d6-672f-46fb-ad04-debcde3fa47e")
 		(property "Reference" "TP4"
-			(at 118.11 100.33 0)
+			(at 115.57 100.33 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -2476,7 +2475,7 @@
 			)
 		)
 		(property "Value" "RF_switch_connector"
-			(at 118.11 100.33 0)
+			(at 115.57 100.33 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2487,7 +2486,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 104.14 0)
+			(at 115.57 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2498,7 +2497,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 104.14 0)
+			(at 115.57 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2509,7 +2508,7 @@
 			)
 		)
 		(property "Description" "Subminiature Coaxial Switch testpoint"
-			(at 118.11 105.41 0)
+			(at 115.57 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2929,7 +2928,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 77.47 0)
+		(at 121.92 77.47 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -2939,7 +2939,7 @@
 		(dnp no)
 		(uuid "5cf93479-ce7e-4b98-89b2-61f433cf753d")
 		(property "Reference" "#PWR046"
-			(at 111.76 83.82 0)
+			(at 121.92 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2950,7 +2950,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.808 80.264 0)
+			(at 118.872 80.264 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2961,7 +2961,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 77.47 0)
+			(at 121.92 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2972,7 +2972,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 77.47 0)
+			(at 121.92 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2983,7 +2983,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 77.47 0)
+			(at 121.92 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3166,7 +3166,8 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 107.95 0)
+		(at 121.92 107.95 0)
+		(mirror y)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -3176,7 +3177,7 @@
 		(dnp no)
 		(uuid "8b26086a-71bb-47f5-adc4-e08401eb4f79")
 		(property "Reference" "#PWR061"
-			(at 111.76 114.3 0)
+			(at 121.92 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3187,7 +3188,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 114.808 110.744 0)
+			(at 118.872 110.744 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3198,7 +3199,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 107.95 0)
+			(at 121.92 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3209,7 +3210,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 107.95 0)
+			(at 121.92 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3220,7 +3221,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 107.95 0)
+			(at 121.92 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4727,8 +4728,7 @@
 	)
 	(symbol
 		(lib_id "GLCS:RF_switch_connector")
-		(at 118.11 74.93 0)
-		(mirror y)
+		(at 115.57 74.93 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4738,7 +4738,7 @@
 		(dnp no)
 		(uuid "f42777c0-b212-4dcc-ada3-9ddc8c4418da")
 		(property "Reference" "TP2"
-			(at 118.11 69.85 0)
+			(at 115.57 69.85 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4748,7 +4748,7 @@
 			)
 		)
 		(property "Value" "RF_switch_connector"
-			(at 118.11 69.85 0)
+			(at 115.57 69.85 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4759,7 +4759,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 118.11 73.66 0)
+			(at 115.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4770,7 +4770,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 118.11 73.66 0)
+			(at 115.57 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4781,7 +4781,7 @@
 			)
 		)
 		(property "Description" "Subminiature Coaxial Switch testpoint"
-			(at 118.11 74.93 0)
+			(at 115.57 74.93 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -17950,7 +17950,7 @@
 			)
 		)
 		(property "Value" "HTU21"
-			(at 275.844 153.67 0)
+			(at 275.844 153.924 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
