@@ -5752,6 +5752,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 53.34) (xy 243.84 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0cbd177a-a9e6-4ee4-be2f-b4b22850c8b4")
+	)
+	(wire
+		(pts
 			(xy 41.91 189.23) (xy 40.64 189.23)
 		)
 		(stroke
@@ -6089,16 +6099,6 @@
 			(type default)
 		)
 		(uuid "369ceff8-66aa-4c6c-b4a8-0551e5f2e049")
-	)
-	(wire
-		(pts
-			(xy 242.57 53.34) (xy 251.46 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3b3e06b9-0cb4-4090-8303-61969663c509")
 	)
 	(wire
 		(pts
@@ -7532,6 +7532,16 @@
 	)
 	(wire
 		(pts
+			(xy 243.84 54.61) (xy 243.84 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7e108f9-8c62-42e6-8efd-436912aac247")
+	)
+	(wire
+		(pts
 			(xy 60.96 179.07) (xy 64.77 179.07)
 		)
 		(stroke
@@ -8060,16 +8070,6 @@
 		)
 		(uuid "a221f679-5e6d-4c09-b68d-b0d2cdbe01be")
 	)
-	(label "VDD_SPI"
-		(at 251.46 53.34 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a746bf5b-63ab-4b02-ba9a-64c668b3713b")
-	)
 	(label "SDA"
 		(at 245.11 144.78 180)
 		(effects
@@ -8079,6 +8079,16 @@
 			(justify right bottom)
 		)
 		(uuid "c1dff94d-e983-4484-88e4-436fa640905b")
+	)
+	(label "VDD_SPI"
+		(at 234.95 53.34 90)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c7036690-51aa-4d77-aa54-e0d8acf3f746")
 	)
 	(label "SDA"
 		(at 179.07 147.32 0)
@@ -11747,6 +11757,85 @@
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
 					(reference "C42")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 243.84 54.61 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5de78665-df3c-4796-a787-688f6e107ec1")
+		(property "Reference" "#PWR094"
+			(at 243.84 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 243.84 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 243.84 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 243.84 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 243.84 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "178e1bc0-a3cf-4db1-ac3a-40db64f2906a")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
+					(reference "#PWR094")
 					(unit 1)
 				)
 			)
