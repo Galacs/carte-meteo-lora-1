@@ -680,13 +680,17 @@
         "uuid": "13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
       }
     ],
-    "used_designators": "",
+    "used_designators": "L3-4,TP1-4,U8-9,J6-8,C14-17,C27,C47,#PWR42-50,#PWR56,#PWR58-59,#PWR61,#PWR63",
     "variants": []
   },
   "sheets": [
     [
       "13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573",
       "Root"
+    ],
+    [
+      "54234dd6-e3a6-4299-a953-0d4417254a38",
+      "Radio"
     ]
   ],
   "text_variables": {},
