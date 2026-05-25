@@ -680,17 +680,13 @@
         "uuid": "13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
       }
     ],
-    "used_designators": "#FLG2,L5-6,J9-11,R1-2,R5-7,R12-15,R24,D13,C5-9,C11-12,C33,C49-61,#PWR12-14,#PWR17,#PWR19,#PWR22,#PWR65,#PWR99-116,Q1-3,U2,U5",
+    "used_designators": "SW1-3,#FLG2-3,L5-6,J1,J4,J6,J9-11,TP1,R1-2,R4-15,R24,D3-6,D9,D11,D13,C2-19,C27,C33,C47,C49-61,Y1,FB1,#PWR3,#PWR5,#PWR9,#PWR12-20,#PWR22,#PWR25,#PWR29-30,#PWR32-33,#PWR35,#PWR37,#PWR40,#PWR42-44,#PWR56,#PWR65,#PWR99-116,Q1-3,U2,U5-6,U8",
     "variants": []
   },
   "sheets": [
     [
       "13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573",
       "Root"
-    ],
-    [
-      "54234dd6-e3a6-4299-a953-0d4417254a38",
-      "Radio"
     ],
     [
       "b13f5423-ad2b-486f-b3c9-143f0bee9d57",
