@@ -5739,6 +5739,12 @@
 		(uuid "12567bed-6837-41d7-b273-daa515466108")
 	)
 	(junction
+		(at 90.17 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "130d11bb-e0e0-42a2-9e23-3d1e91a33ad8")
+	)
+	(junction
 		(at 34.29 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5821,12 +5827,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ba7aa03-d623-442d-9e88-4153cdffd917")
-	)
-	(junction
-		(at 87.63 114.3)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5fcc4edc-5f08-4396-bb43-147fb7a9d8f4")
 	)
 	(junction
 		(at 142.24 58.42)
@@ -5955,6 +5955,12 @@
 		(uuid "bfb15efb-b5c1-4fde-9863-1ee9c6414f6f")
 	)
 	(junction
+		(at 87.63 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ce083678-ed6e-4a8a-8b51-51c481f54f0b")
+	)
+	(junction
 		(at 73.66 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5971,12 +5977,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e3602fc0-5456-4859-bbb1-c81ea7a6e53e")
-	)
-	(junction
-		(at 90.17 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4652283-b79c-43f6-ba9f-abbbd847281b")
 	)
 	(junction
 		(at 102.87 49.53)
@@ -6260,16 +6260,6 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 114.3) (xy 87.63 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "149e4bd0-462e-4cb0-894e-934931469a0f")
-	)
-	(wire
-		(pts
 			(xy 73.66 81.28) (xy 73.66 91.44)
 		)
 		(stroke
@@ -6320,6 +6310,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 121.92) (xy 101.6 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "197d45a2-60f9-4511-a4c6-1fe6e6faf7c5")
+	)
+	(wire
+		(pts
 			(xy 87.63 104.14) (xy 87.63 105.41)
 		)
 		(stroke
@@ -6367,6 +6367,16 @@
 			(type default)
 		)
 		(uuid "22050e39-b412-415b-b005-ec09aa3b3465")
+	)
+	(wire
+		(pts
+			(xy 76.2 114.3) (xy 87.63 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22373409-6ccd-4032-a7bf-dc5abf83065e")
 	)
 	(wire
 		(pts
@@ -6427,16 +6437,6 @@
 			(type default)
 		)
 		(uuid "28cca100-6169-4be6-9c97-e420b435bc7c")
-	)
-	(wire
-		(pts
-			(xy 81.28 116.84) (xy 90.17 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29e40ac0-845a-4756-b886-8017e9c5bb82")
 	)
 	(wire
 		(pts
@@ -6850,6 +6850,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 116.84) (xy 90.17 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5a4d7b5c-4980-41fc-a906-3b77a6556e7a")
+	)
+	(wire
+		(pts
 			(xy 128.27 185.42) (xy 128.27 187.96)
 		)
 		(stroke
@@ -6967,6 +6977,16 @@
 			(type default)
 		)
 		(uuid "61faa3b2-d651-4a20-83c7-e1b88ab026d9")
+	)
+	(wire
+		(pts
+			(xy 76.2 119.38) (xy 101.6 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "627a5868-d813-484e-a74e-7a9796a72e2d")
 	)
 	(wire
 		(pts
@@ -8177,6 +8197,16 @@
 			(type default)
 		)
 		(uuid "eb6c9c2c-0957-48d3-8da3-6efaf3b5293b")
+	)
+	(wire
+		(pts
+			(xy 76.2 124.46) (xy 101.6 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ecab063c-a82a-4fda-85be-8955fe1d6024")
 	)
 	(wire
 		(pts
@@ -19195,8 +19225,8 @@
 		)
 	)
 	(sheet
-		(at 187.96 105.41)
-		(size 12.7 13.97)
+		(at 63.5 111.76)
+		(size 12.7 15.24)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -19209,9 +19239,9 @@
 		(fill
 			(color 0 0 0 0)
 		)
-		(uuid "b13f5423-ad2b-486f-b3c9-143f0bee9d57")
+		(uuid "bc5d65a4-c450-4e57-8a97-a858527d4ac0")
 		(property "Sheetname" "Power"
-			(at 187.96 104.6984 0)
+			(at 63.5 111.0484 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19222,7 +19252,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 187.96 119.9646 0)
+			(at 63.5 127.5846 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19233,10 +19263,60 @@
 				(justify left top)
 			)
 		)
+		(pin "~{INT}" input
+			(at 76.2 121.92 0)
+			(uuid "39e20974-968a-4a1d-8aba-7eb83be661df")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{QON}" input
+			(at 76.2 119.38 0)
+			(uuid "6ee2694e-bf67-4e5e-90de-03e8159ea639")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SCL" input
+			(at 76.2 114.3 0)
+			(uuid "25285d7c-23c7-4801-8511-44ddd5b78d66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 76.2 116.84 0)
+			(uuid "017e2c84-bcb1-40e9-a5a6-570d9b769643")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "~{CE}" input
+			(at 76.2 124.46 0)
+			(uuid "e0ae832a-d1c3-4855-9fc7-47f8bfa4c952")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(page "3")
+					(page "2")
 				)
 			)
 		)

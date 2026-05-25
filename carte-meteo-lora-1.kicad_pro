@@ -680,7 +680,7 @@
         "uuid": "13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
       }
     ],
-    "used_designators": "SW1-3,#FLG2-4,L5-8,J1-2,J4,J6,J9-14,TP1-3,R1-22,R24-26,D3-6,D9-11,D13-15,C1-27,C33-34,C47,C49-74,Y1,FB1,#PWR2-3,#PWR5,#PWR7,#PWR9,#PWR11-23,#PWR25,#PWR29-30,#PWR32-33,#PWR35,#PWR37,#PWR40,#PWR42-50,#PWR56,#PWR65-67,#PWR99-129,Q1-4,U2-3,U5-6,U8-10",
+    "used_designators": "SW1-3,#FLG2-4,L5-8,J1-2,J4,J6,J9-14,TP1-3,R1-22,R24-26,D3-6,D9-11,D13-15,C1-27,C33-34,C47,C49-74,Y1,FB1,#PWR2-3,#PWR5,#PWR7,#PWR9,#PWR11-23,#PWR25,#PWR29-30,#PWR32-33,#PWR35,#PWR37,#PWR40,#PWR42-50,#PWR56,#PWR64-67,#PWR99-129,Q1-4,U2-3,U5-6,U8-10",
     "variants": []
   },
   "sheets": [
@@ -689,7 +689,7 @@
       "Root"
     ],
     [
-      "b13f5423-ad2b-486f-b3c9-143f0bee9d57",
+      "bc5d65a4-c450-4e57-8a97-a858527d4ac0",
       "Power"
     ]
   ],
