@@ -2389,6 +2389,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Small_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(jumper_pin_groups
+				("1" "2")
+			)
+			(property "Reference" "JP1"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Bridged"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_1"
+				(arc
+					(start -0.762 0.254)
+					(mid 0 0.5696)
+					(end 0.762 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "LED:WS2812B"
 			(pin_names
 				(offset 0.254)
@@ -5858,12 +6028,6 @@
 		(uuid "14cfdf69-4255-491c-b390-77cae85a44f8")
 	)
 	(junction
-		(at 265.43 92.71)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "15aaedbb-88e4-4a4f-916b-b2da37f47b5d")
-	)
-	(junction
 		(at 77.47 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5934,6 +6098,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "49b17364-e60a-4cb4-a881-ed7cfedf9786")
+	)
+	(junction
+		(at 265.43 92.71)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54efce62-0519-49cb-a834-0ee583e14225")
 	)
 	(junction
 		(at 72.39 50.8)
@@ -6062,6 +6232,12 @@
 		(uuid "8ffd396c-93be-4595-ad60-9f23068cdf71")
 	)
 	(junction
+		(at 25.4 142.24)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "945d38ee-72e7-4b3e-935a-55d7cc33ab28")
+	)
+	(junction
 		(at 106.68 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6108,12 +6284,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e08990e1-9cb6-4bcd-b20a-1055e6e290ab")
-	)
-	(junction
-		(at 25.4 142.24)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e1fc9197-44b7-454b-8dc8-79bb3ea62092")
 	)
 	(junction
 		(at 194.31 134.62)
@@ -7327,7 +7497,7 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 140.97) (xy 22.86 142.24)
+			(xy 17.78 140.97) (xy 17.78 142.24)
 		)
 		(stroke
 			(width 0)
@@ -7527,6 +7697,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 142.24) (xy 19.05 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88fd509e-5948-4853-8d20-fa9196867c8f")
+	)
+	(wire
+		(pts
 			(xy 109.22 53.34) (xy 109.22 54.61)
 		)
 		(stroke
@@ -7544,6 +7724,16 @@
 			(type default)
 		)
 		(uuid "8a083e86-9ce7-413f-b8cb-c67951efb099")
+	)
+	(wire
+		(pts
+			(xy 266.7 91.44) (xy 265.43 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c11dd1d-338e-45ce-9fa9-d59bae2134ea")
 	)
 	(wire
 		(pts
@@ -7607,16 +7797,6 @@
 	)
 	(wire
 		(pts
-			(xy 22.86 142.24) (xy 25.4 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "90b209c5-c7c8-4a4f-b6d9-dc3c60ed3f9b")
-	)
-	(wire
-		(pts
 			(xy 281.94 110.49) (xy 275.59 110.49)
 		)
 		(stroke
@@ -7664,6 +7844,16 @@
 			(type default)
 		)
 		(uuid "948204bb-db09-44ba-baff-c23c404374a4")
+	)
+	(wire
+		(pts
+			(xy 265.43 91.44) (xy 265.43 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "957ae432-8278-496d-874f-de98ef647dd7")
 	)
 	(wire
 		(pts
@@ -7937,16 +8127,6 @@
 	)
 	(wire
 		(pts
-			(xy 265.43 91.44) (xy 265.43 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "afc7c4bd-b7a5-42ff-97fb-4c36039e69c1")
-	)
-	(wire
-		(pts
 			(xy 114.3 53.34) (xy 121.92 53.34)
 		)
 		(stroke
@@ -8177,6 +8357,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 91.44) (xy 273.05 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c75d2480-9568-4811-a526-23e6edecdeb6")
+	)
+	(wire
+		(pts
 			(xy 207.01 137.16) (xy 207.01 134.62)
 		)
 		(stroke
@@ -8214,6 +8404,16 @@
 			(type default)
 		)
 		(uuid "cee3f8f6-366c-4498-ab73-7ca58922349e")
+	)
+	(wire
+		(pts
+			(xy 24.13 142.24) (xy 25.4 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfb986e6-75df-4e04-97ed-4ed9ef1c1235")
 	)
 	(wire
 		(pts
@@ -11286,7 +11486,7 @@
 	)
 	(symbol
 		(lib_id "power:+3V3")
-		(at 265.43 91.44 0)
+		(at 273.05 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -11296,7 +11496,7 @@
 		(dnp no)
 		(uuid "3e5fc9f8-d075-4be7-afcb-34276b410373")
 		(property "Reference" "#PWR056"
-			(at 265.43 95.25 0)
+			(at 273.05 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11307,7 +11507,7 @@
 			)
 		)
 		(property "Value" "+3V3"
-			(at 267.97 88.138 0)
+			(at 275.844 88.138 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -11317,7 +11517,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 265.43 91.44 0)
+			(at 273.05 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11328,7 +11528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 265.43 91.44 0)
+			(at 273.05 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11339,7 +11539,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 265.43 91.44 0)
+			(at 273.05 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11684,6 +11884,86 @@
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
 					(reference "SW2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 269.24 91.44 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "46dc86bc-a2a3-4547-93fa-a9dcd43c8e21")
+		(property "Reference" "JP2"
+			(at 269.24 89.408 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 269.24 88.9 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 269.24 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 269.24 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 269.24 91.44 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "131f839c-1b39-4cf8-8aed-835e1f88471c")
+		)
+		(pin "1"
+			(uuid "a95411f9-30bf-42ec-8330-4132e1bb192a")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
+					(reference "JP2")
 					(unit 1)
 				)
 			)
@@ -12603,6 +12883,86 @@
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
 					(reference "U8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 21.59 142.24 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "69f5c6dd-c945-4e8e-bd3e-109a8cec1603")
+		(property "Reference" "JP1"
+			(at 18.034 143.51 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 21.59 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 21.59 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 21.59 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 21.59 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "c6913724-a29a-4b38-9eb9-b3e229268fcc")
+		)
+		(pin "1"
+			(uuid "8ccfc93a-268f-48a8-a9ce-d54563b7fde2")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
+					(reference "JP1")
 					(unit 1)
 				)
 			)
@@ -14162,7 +14522,7 @@
 		(dnp no)
 		(uuid "86cd8a05-daaf-4203-aa5a-479da738657a")
 		(property "Reference" "C1"
-			(at 21.59 146.0499 0)
+			(at 22.098 146.558 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -14173,7 +14533,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 21.59 148.5899 0)
+			(at 22.098 149.098 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15466,7 +15826,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 22.86 140.97 0)
+		(at 17.78 140.97 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -15476,7 +15836,7 @@
 		(dnp no)
 		(uuid "a2ac3239-96b7-41b2-9831-d0a216ceb1ce")
 		(property "Reference" "#PWR066"
-			(at 22.86 144.78 0)
+			(at 17.78 144.78 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15487,7 +15847,7 @@
 			)
 		)
 		(property "Value" "+SYS"
-			(at 19.304 137.668 0)
+			(at 21.082 137.922 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -15497,7 +15857,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 22.86 140.97 0)
+			(at 17.78 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15508,7 +15868,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 22.86 140.97 0)
+			(at 17.78 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15519,7 +15879,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 22.86 140.97 0)
+			(at 17.78 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

@@ -2778,6 +2778,176 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Jumper:Jumper_2_Small_Bridged"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(jumper_pin_groups
+				("1" "2")
+			)
+			(property "Reference" "JP1"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Jumper_2_Small_Bridged"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Jumper, 2-pole, small symbol, bridged"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "Jumper SPST"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_0"
+				(circle
+					(center -1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 1.016 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_0_1"
+				(arc
+					(start -0.762 0.254)
+					(mid 0 0.5696)
+					(end 0.762 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "Jumper_2_Small_Bridged_1_1"
+				(pin passive line
+					(at -2.54 0 0)
+					(length 1.27)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 0 180)
+					(length 1.27)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Pers:TPS6282x"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -4109,6 +4279,12 @@
 		(uuid "006c2de6-d46b-469f-a7d2-228526357656")
 	)
 	(junction
+		(at 187.96 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "081422a2-ee36-4f29-8066-9a3a47629758")
+	)
+	(junction
 		(at 168.91 92.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4133,7 +4309,7 @@
 		(uuid "1a7fc2bc-96c1-4517-9313-e42e05aed9b5")
 	)
 	(junction
-		(at 190.5 113.03)
+		(at 187.96 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "323d8e12-bed8-47df-948e-e7b45bbf67c2")
@@ -4169,12 +4345,6 @@
 		(uuid "474e5f14-2443-4624-af48-d54febba6f04")
 	)
 	(junction
-		(at 88.9 85.09)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "48b3c328-5f07-44a9-b7c1-65e6ba9e7b05")
-	)
-	(junction
 		(at 115.57 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4187,16 +4357,22 @@
 		(uuid "4a8be91c-efcf-4f31-9841-82368b80437e")
 	)
 	(junction
+		(at 172.72 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4fd286a4-ccfb-42a8-9ab4-7c8d502385a2")
+	)
+	(junction
 		(at 266.7 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "536f1d90-e374-464e-a9b5-d11861fcab6c")
 	)
 	(junction
-		(at 196.85 102.87)
+		(at 177.8 102.87)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5c6272f2-51f8-4fb4-90e5-c59530acf179")
+		(uuid "5983527b-eb9d-4ebf-8636-c2f5cfb103ab")
 	)
 	(junction
 		(at 264.16 102.87)
@@ -4205,19 +4381,13 @@
 		(uuid "5dc36d78-f695-4c3f-a7d0-8926143a7acf")
 	)
 	(junction
-		(at 175.26 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "64c0ad98-7423-48d8-9308-2159d8a47709")
-	)
-	(junction
 		(at 113.03 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "73cf5070-1b1f-4359-bdb7-999158bd72d8")
 	)
 	(junction
-		(at 185.42 113.03)
+		(at 182.88 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77a2c12e-cf30-41f2-aadd-d16f3e9dd9e7")
@@ -4247,13 +4417,7 @@
 		(uuid "86652522-f4b5-40ff-aa10-575831e061b0")
 	)
 	(junction
-		(at 190.5 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "953f62a7-ea82-491c-b679-dec09411a070")
-	)
-	(junction
-		(at 180.34 113.03)
+		(at 177.8 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "992f9733-f6af-4c83-a9ba-61779419a255")
@@ -4277,16 +4441,16 @@
 		(uuid "a19079a7-fe97-4b78-a24c-ab06f50ca872")
 	)
 	(junction
+		(at 182.88 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a77eb319-3f55-4732-9ac8-33a1c44166a4")
+	)
+	(junction
 		(at 121.92 77.47)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a8e2b5ec-96ac-4e27-897b-ba6e1f518225")
-	)
-	(junction
-		(at 185.42 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "b6493ba8-5dae-4c4d-8c83-b531c7ea0d36")
 	)
 	(junction
 		(at 185.42 128.27)
@@ -4361,6 +4525,12 @@
 		(uuid "d3d21c3a-8eab-43da-b81a-89ca8e50c013")
 	)
 	(junction
+		(at 199.39 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d782b8bc-9ca9-4046-8685-e75dd5086ca1")
+	)
+	(junction
 		(at 102.87 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4379,6 +4549,12 @@
 		(uuid "e429c8b1-407e-4694-8bba-38671ff16b2a")
 	)
 	(junction
+		(at 88.9 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ec2a62c2-9b5c-4ebf-babb-4a07c4202b3e")
+	)
+	(junction
 		(at 128.27 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4389,12 +4565,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f5783cbb-223d-4102-8dcc-f8ed0e3de213")
-	)
-	(junction
-		(at 180.34 102.87)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f706a055-2005-4fd4-bda2-2f73cfbe6151")
 	)
 	(no_connect
 		(at 138.43 93.98)
@@ -4686,13 +4856,23 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 113.03) (xy 190.5 114.3)
+			(xy 187.96 113.03) (xy 187.96 114.3)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "254a7561-a71a-443a-bb3a-4107192fd960")
+	)
+	(wire
+		(pts
+			(xy 187.96 102.87) (xy 191.77 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "254b9465-ffc1-41b7-bff9-f8ef4c4d1197")
 	)
 	(wire
 		(pts
@@ -4706,7 +4886,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 113.03) (xy 180.34 113.03)
+			(xy 182.88 113.03) (xy 177.8 113.03)
 		)
 		(stroke
 			(width 0)
@@ -4716,7 +4896,7 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 102.87) (xy 185.42 104.14)
+			(xy 182.88 102.87) (xy 182.88 104.14)
 		)
 		(stroke
 			(width 0)
@@ -4743,6 +4923,16 @@
 			(type default)
 		)
 		(uuid "2c642a9c-f9e4-4ef5-b67e-b465590051a1")
+	)
+	(wire
+		(pts
+			(xy 182.88 102.87) (xy 187.96 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "315370f8-335b-4bd6-a487-a8f777d6008a")
 	)
 	(wire
 		(pts
@@ -4876,7 +5066,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 102.87) (xy 175.26 102.87)
+			(xy 158.75 102.87) (xy 172.72 102.87)
 		)
 		(stroke
 			(width 0)
@@ -4976,7 +5166,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 111.76) (xy 190.5 113.03)
+			(xy 187.96 111.76) (xy 187.96 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5126,7 +5316,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 113.03) (xy 185.42 113.03)
+			(xy 187.96 113.03) (xy 182.88 113.03)
 		)
 		(stroke
 			(width 0)
@@ -5156,16 +5346,6 @@
 	)
 	(wire
 		(pts
-			(xy 185.42 102.87) (xy 196.85 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72056a13-3826-4068-b399-608f3a754e4c")
-	)
-	(wire
-		(pts
 			(xy 180.34 82.55) (xy 180.34 81.28)
 		)
 		(stroke
@@ -5176,7 +5356,17 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 113.03) (xy 180.34 111.76)
+			(xy 199.39 102.87) (xy 212.09 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "745fe42a-7798-4284-9486-b1bc4f7581e1")
+	)
+	(wire
+		(pts
+			(xy 177.8 113.03) (xy 177.8 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5236,7 +5426,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 102.87) (xy 175.26 104.14)
+			(xy 172.72 102.87) (xy 172.72 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5276,7 +5466,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 113.03) (xy 175.26 111.76)
+			(xy 172.72 113.03) (xy 172.72 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5436,7 +5626,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 102.87) (xy 190.5 104.14)
+			(xy 187.96 102.87) (xy 187.96 104.14)
 		)
 		(stroke
 			(width 0)
@@ -5516,6 +5706,16 @@
 	)
 	(wire
 		(pts
+			(xy 76.2 85.09) (xy 80.01 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d6fc849-8743-4696-9fa2-16c56bd3025d")
+	)
+	(wire
+		(pts
 			(xy 115.57 69.85) (xy 115.57 68.58)
 		)
 		(stroke
@@ -5546,7 +5746,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 118.11) (xy 180.34 118.11)
+			(xy 158.75 118.11) (xy 166.37 118.11)
 		)
 		(stroke
 			(width 0)
@@ -5706,13 +5906,23 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 101.6) (xy 196.85 102.87)
+			(xy 199.39 101.6) (xy 199.39 102.87)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b8a219dc-54d2-40c0-a77a-37d57eaba7f4")
+	)
+	(wire
+		(pts
+			(xy 196.85 102.87) (xy 199.39 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b8c50b9a-15f9-4af9-a20d-d30dbc1b28d0")
 	)
 	(wire
 		(pts
@@ -5743,6 +5953,16 @@
 			(type default)
 		)
 		(uuid "bb2fd9d0-4680-4e75-88b4-d1242ac601f6")
+	)
+	(wire
+		(pts
+			(xy 177.8 102.87) (xy 182.88 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bcf19398-2e1b-47a5-bcde-355589110685")
 	)
 	(wire
 		(pts
@@ -5796,13 +6016,43 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 113.03) (xy 175.26 113.03)
+			(xy 171.45 118.11) (xy 180.34 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c729b57b-39d7-47a9-8b84-884cd59927e2")
+	)
+	(wire
+		(pts
+			(xy 172.72 102.87) (xy 177.8 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c76a9347-6152-49d5-9c0f-20dc8610ef32")
+	)
+	(wire
+		(pts
+			(xy 177.8 113.03) (xy 172.72 113.03)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "c8c9d5b7-d9af-437f-b275-54c5439e137b")
+	)
+	(wire
+		(pts
+			(xy 85.09 85.09) (xy 88.9 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c96cad82-8199-4823-9cf3-b66d93e7d736")
 	)
 	(wire
 		(pts
@@ -5816,17 +6066,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 102.87) (xy 180.34 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb14c0ac-864e-4d2c-8198-eba1ce1f3f5a")
-	)
-	(wire
-		(pts
-			(xy 185.42 113.03) (xy 185.42 111.76)
+			(xy 182.88 113.03) (xy 182.88 111.76)
 		)
 		(stroke
 			(width 0)
@@ -5956,16 +6196,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 102.87) (xy 212.09 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d881a754-7019-4648-9b85-766344f05290")
-	)
-	(wire
-		(pts
 			(xy 168.91 92.71) (xy 168.91 97.79)
 		)
 		(stroke
@@ -6056,26 +6286,6 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 85.09) (xy 88.9 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e04aae2c-3237-4d58-9df9-eb689e7a0ad5")
-	)
-	(wire
-		(pts
-			(xy 180.34 102.87) (xy 185.42 102.87)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e1b791ec-9443-4960-99e6-87fd58ef60a2")
-	)
-	(wire
-		(pts
 			(xy 102.87 109.22) (xy 102.87 110.49)
 		)
 		(stroke
@@ -6146,7 +6356,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 102.87) (xy 180.34 104.14)
+			(xy 177.8 102.87) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -7622,7 +7832,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 190.5 107.95 0)
+		(at 187.96 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7632,7 +7842,7 @@
 		(dnp no)
 		(uuid "2c59a312-58f4-4f49-80bb-8757846a783c")
 		(property "Reference" "C58"
-			(at 189.738 99.314 0)
+			(at 187.198 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7643,7 +7853,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 189.738 101.854 0)
+			(at 187.198 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7654,7 +7864,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 191.4652 111.76 0)
+			(at 188.9252 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7665,7 +7875,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 107.95 0)
+			(at 187.96 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7676,7 +7886,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 190.5 107.95 0)
+			(at 187.96 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7687,7 +7897,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 190.5 107.95 0)
+			(at 187.96 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7698,7 +7908,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C440198"
-			(at 190.5 107.95 0)
+			(at 187.96 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7709,7 +7919,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 190.5 107.95 0)
+			(at 187.96 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7720,7 +7930,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
-			(at 190.5 107.95 0)
+			(at 187.96 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8307,7 +8517,7 @@
 	)
 	(symbol
 		(lib_id "power:+BATT")
-		(at 196.85 101.6 0)
+		(at 199.39 101.6 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8317,7 +8527,7 @@
 		(dnp no)
 		(uuid "449725a0-e89b-4d38-8f03-be92c81e30db")
 		(property "Reference" "#PWR064"
-			(at 196.85 105.41 0)
+			(at 199.39 105.41 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8328,7 +8538,7 @@
 			)
 		)
 		(property "Value" "+SYS"
-			(at 196.596 97.028 0)
+			(at 199.136 97.028 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8338,7 +8548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 196.85 101.6 0)
+			(at 199.39 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8349,7 +8559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 196.85 101.6 0)
+			(at 199.39 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8360,7 +8570,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 196.85 101.6 0)
+			(at 199.39 101.6 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8832,7 +9042,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 175.26 107.95 0)
+		(at 172.72 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -8842,7 +9052,7 @@
 		(dnp no)
 		(uuid "4e36f851-d5a0-4c3d-bd57-e0d61369fbb0")
 		(property "Reference" "C55"
-			(at 174.498 99.314 0)
+			(at 171.958 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8853,7 +9063,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 174.498 101.854 0)
+			(at 171.958 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -8864,7 +9074,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 176.2252 111.76 0)
+			(at 173.6852 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8875,7 +9085,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 107.95 0)
+			(at 172.72 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8886,7 +9096,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 175.26 107.95 0)
+			(at 172.72 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8897,7 +9107,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 175.26 107.95 0)
+			(at 172.72 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8908,7 +9118,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C440198"
-			(at 175.26 107.95 0)
+			(at 172.72 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8919,7 +9129,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 175.26 107.95 0)
+			(at 172.72 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8930,7 +9140,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
-			(at 175.26 107.95 0)
+			(at 172.72 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9052,6 +9262,86 @@
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573/9999b4d2-cbfb-4c4d-87a4-97a3463f3d3b"
 					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 82.55 85.09 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "50dc6a29-659c-4f51-9ccf-3e0027e1d87d")
+		(property "Reference" "JP3"
+			(at 82.55 82.55 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 82.55 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 82.55 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 82.55 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 82.55 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "f609cb5a-f7ec-45a2-a40c-1d484d018f26")
+		)
+		(pin "1"
+			(uuid "f459f63a-c57d-4b2b-bdfa-9a84d6f84f41")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573/9999b4d2-cbfb-4c4d-87a4-97a3463f3d3b"
+					(reference "JP3")
 					(unit 1)
 				)
 			)
@@ -10282,6 +10572,86 @@
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573/9999b4d2-cbfb-4c4d-87a4-97a3463f3d3b"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 194.31 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "6f80350b-62e3-4404-ac99-791851a46c80")
+		(property "Reference" "JP5"
+			(at 194.31 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 194.31 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 194.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 194.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 194.31 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b3c237ac-6992-4111-abee-dfdf128311fc")
+		)
+		(pin "1"
+			(uuid "774e9607-06b1-47d0-97fe-29f5f03b9ef0")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573/9999b4d2-cbfb-4c4d-87a4-97a3463f3d3b"
+					(reference "JP5")
 					(unit 1)
 				)
 			)
@@ -11567,6 +11937,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Jumper:Jumper_2_Small_Bridged")
+		(at 168.91 118.11 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a1e58025-2f01-4cb0-a9e5-0180291ffd97")
+		(property "Reference" "JP4"
+			(at 168.91 115.57 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Jumper_2_Small_Bridged"
+			(at 168.91 115.57 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 168.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 168.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Jumper, 2-pole, small symbol, bridged"
+			(at 168.91 118.11 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "72c1cfd1-82ae-4eeb-a399-21d5510e47a7")
+		)
+		(pin "1"
+			(uuid "b1df6219-886c-4c73-88ea-f41ffba39398")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573/9999b4d2-cbfb-4c4d-87a4-97a3463f3d3b"
+					(reference "JP4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 102.87 128.27 180)
 		(unit 1)
@@ -12069,7 +12519,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 180.34 107.95 0)
+		(at 177.8 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12079,7 +12529,7 @@
 		(dnp no)
 		(uuid "b321c159-5f3f-4798-9926-2e6dc1ccd73e")
 		(property "Reference" "C56"
-			(at 179.578 99.314 0)
+			(at 177.038 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12090,7 +12540,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 179.578 101.854 0)
+			(at 177.038 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -12101,7 +12551,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 181.3052 111.76 0)
+			(at 178.7652 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12112,7 +12562,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 107.95 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12123,7 +12573,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 180.34 107.95 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12134,7 +12584,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 180.34 107.95 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12145,7 +12595,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C440198"
-			(at 180.34 107.95 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12156,7 +12606,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 180.34 107.95 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12167,7 +12617,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
-			(at 180.34 107.95 0)
+			(at 177.8 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12194,7 +12644,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 190.5 114.3 0)
+		(at 187.96 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -12204,7 +12654,7 @@
 		(dnp no)
 		(uuid "b36bdaf5-ed89-4f01-9bf5-d6cbc0c45d00")
 		(property "Reference" "#PWR0108"
-			(at 190.5 120.65 0)
+			(at 187.96 120.65 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12215,7 +12665,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 190.5 118.618 0)
+			(at 187.96 118.618 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12226,7 +12676,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 190.5 114.3 0)
+			(at 187.96 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12237,7 +12687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 190.5 114.3 0)
+			(at 187.96 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12248,7 +12698,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 190.5 114.3 0)
+			(at 187.96 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13473,7 +13923,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 185.42 107.95 0)
+		(at 182.88 107.95 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -13483,7 +13933,7 @@
 		(dnp no)
 		(uuid "e5006fdf-9bfa-4b3e-ab11-f2365867e08c")
 		(property "Reference" "C57"
-			(at 184.658 99.314 0)
+			(at 182.118 99.314 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13494,7 +13944,7 @@
 			)
 		)
 		(property "Value" "10u"
-			(at 184.658 101.854 0)
+			(at 182.118 101.854 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -13505,7 +13955,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 186.3852 111.76 0)
+			(at 183.8452 111.76 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13516,7 +13966,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 185.42 107.95 0)
+			(at 182.88 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13527,7 +13977,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 185.42 107.95 0)
+			(at 182.88 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13538,7 +13988,7 @@
 			)
 		)
 		(property "Basic" "Y"
-			(at 185.42 107.95 0)
+			(at 182.88 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13549,7 +13999,7 @@
 			)
 		)
 		(property "JLCPCB Part #" "C440198"
-			(at 185.42 107.95 0)
+			(at 182.88 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13560,7 +14010,7 @@
 			)
 		)
 		(property "Manufacturer" "Murata"
-			(at 185.42 107.95 0)
+			(at 182.88 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13571,7 +14021,7 @@
 			)
 		)
 		(property "Manufacturer Part Number" "GRM21BR61H106KE43L"
-			(at 185.42 107.95 0)
+			(at 182.88 107.95 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
