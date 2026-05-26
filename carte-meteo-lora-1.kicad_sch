@@ -4,6 +4,12 @@
 	(generator_version "10.0")
 	(uuid "13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573")
 	(paper "A4")
+	(title_block
+		(title "Carte Meteo Lora 1")
+		(date "2026-05-26")
+		(rev "01")
+		(company "Rémi Ait-Younes")
+	)
 	(lib_symbols
 		(symbol "Connector:Conn_ARM_SWD_TagConnect_TC2030-NL"
 			(exclude_from_sim no)
