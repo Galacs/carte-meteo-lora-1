@@ -9118,6 +9118,16 @@
 		)
 		(uuid "0a59bb0d-1eba-4943-92c1-9fa5d34feed8")
 	)
+	(label "RF_LR"
+		(at 251.46 105.41 0)
+		(effects
+			(font
+				(size 0.762 0.762)
+			)
+			(justify left bottom)
+		)
+		(uuid "0ef790f4-0b0b-4471-9e69-40f3624f47be")
+	)
 	(label "RST"
 		(at 281.94 107.95 180)
 		(effects
