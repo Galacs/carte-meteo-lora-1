@@ -10774,87 +10774,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_Coaxial")
-		(at 246.38 105.41 0)
-		(mirror y)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "1fcdc755-8a8e-422e-aa98-5006885c0f97")
-		(property "Reference" "J6"
-			(at 244.094 102.362 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_Coaxial"
-			(at 246.6974 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 246.38 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 246.38 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
-			(at 246.38 105.41 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "e65bfb24-e38c-4352-87be-5b09c9df9484")
-		)
-		(pin "2"
-			(uuid "52c33057-5a22-4712-b646-071612235e66")
-		)
-		(instances
-			(project "carte-meteo-lora-1"
-				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 255.27 99.06 0)
 		(unit 1)
@@ -12309,7 +12228,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 269.24 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -13179,190 +13098,6 @@
 		)
 	)
 	(symbol
-		(lib_id "GLCS:SX1262TR8-GC")
-		(at 264.16 113.03 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "687a0d41-759d-402e-b2f4-f025173ed7fd")
-		(property "Reference" "U8"
-			(at 266.7 99.06 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SX1262TR8-GC"
-			(at 274.32 101.346 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 264.16 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 264.16 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 264.16 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Basic" "X"
-			(at 264.16 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "JLCPCB Part #" "C42381682"
-			(at 264.16 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Silicontra"
-			(at 264.16 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer Part Number" "SX1262TR8-GC"
-			(at 264.16 113.03 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "22"
-			(uuid "43fca801-232c-4d91-a4bf-813485266e71")
-		)
-		(pin "12"
-			(uuid "e13b6ce0-507d-4f10-92d8-a00ec9953a0e")
-		)
-		(pin "2"
-			(uuid "4ea75518-3646-40db-bf00-d679ad169d89")
-		)
-		(pin "7"
-			(uuid "337edc7b-d6fe-4c8d-8d20-6ed91d32e7e3")
-		)
-		(pin "14"
-			(uuid "4e0e63f3-1d4f-467e-90a3-9d8dee1e8150")
-		)
-		(pin "9"
-			(uuid "90d06be3-b67c-46d3-aa55-b3244fe56595")
-		)
-		(pin "4"
-			(uuid "882769ba-24a4-4215-bf6a-544272ef0d62")
-		)
-		(pin "21"
-			(uuid "b0bab13e-04e9-40ac-9174-12b117ecc2a7")
-		)
-		(pin "11"
-			(uuid "bb312b3c-8de5-42ed-87c8-8b1f774ee15f")
-		)
-		(pin "10"
-			(uuid "f60d0323-5505-4144-9f2d-2a7212dcfaf7")
-		)
-		(pin "6"
-			(uuid "fd33cf88-8f5a-4f82-b20f-fec652e25008")
-		)
-		(pin "3"
-			(uuid "798fd712-fecd-4d01-84fd-5b85982dd980")
-		)
-		(pin "15"
-			(uuid "fc80e982-af01-4abd-a891-92d951f691bb")
-		)
-		(pin "1"
-			(uuid "b549aaaf-6ec2-4bf2-b4d6-5f7518a7dc49")
-		)
-		(pin "20"
-			(uuid "1d8e98f2-0f5a-4f2d-be9c-b0599b177976")
-		)
-		(pin "13"
-			(uuid "54941235-bde3-47f8-97e1-b23ec071dec3")
-		)
-		(pin "8"
-			(uuid "b268a0cd-a9f7-4a41-bf9a-8f503c620deb")
-		)
-		(pin "5"
-			(uuid "3fb82227-0772-4ac7-bfab-7a53179fd773")
-		)
-		(pin "16"
-			(uuid "fba47fd7-fce5-4230-9544-d989f2bb53c1")
-		)
-		(pin "17"
-			(uuid "e4ace3bf-b565-4689-a672-6e73c9113f02")
-		)
-		(pin "19"
-			(uuid "8fa6275d-19a4-47f8-b9f7-c34d8dd2a7f2")
-		)
-		(pin "18"
-			(uuid "ae6c602b-dda5-4131-8556-c89292fd4e9e")
-		)
-		(instances
-			(project "carte-meteo-lora-1"
-				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "U8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Jumper:Jumper_2_Small_Bridged")
 		(at 21.59 142.24 0)
 		(unit 1)
@@ -13394,7 +13129,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 21.59 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -14980,6 +14715,132 @@
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
 					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_Coaxial")
+		(at 246.38 105.41 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "7e9b4fac-9003-46fe-b2b8-bb1c9b5bf43d")
+		(property "Reference" "J4"
+			(at 245.11 101.854 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_Coaxial"
+			(at 246.6974 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_Coaxial:SMA_BAT_Wireless_BWSMA-KWE-Z001"
+			(at 246.38 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 246.38 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "coaxial connector (BNC, SMA, SMB, SMC, Cinch/RCA, LEMO, ...)"
+			(at 246.38 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "Z"
+			(at 246.38 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C496551"
+			(at 246.38 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "BAT WIRELESS"
+			(at 246.38 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "BWSMA-KWE-Z001"
+			(at 246.38 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "0491f78b-c92b-4da3-96b5-fdedc277bf47")
+		)
+		(pin "2"
+			(uuid "40dfe0ad-362b-45c5-8a36-3ea598095003")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -16608,6 +16469,190 @@
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
 					(reference "#PWR066")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "GLCS:SX1262TR8-GC")
+		(at 264.16 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "a3061adb-c53c-42e0-abe1-a7bdae4a74a9")
+		(property "Reference" "U6"
+			(at 266.7 99.06 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SX1262TR8-GC"
+			(at 274.32 101.346 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "GLCS:Silicontra_SX1262ZTR8"
+			(at 264.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 264.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 264.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Basic" "X"
+			(at 264.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "JLCPCB Part #" "C42381682"
+			(at 264.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Silicontra"
+			(at 264.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "SX1262TR8-GC"
+			(at 264.16 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "22"
+			(uuid "25a812f1-ce55-49c0-831e-211d05e5e10e")
+		)
+		(pin "12"
+			(uuid "2dfbb9e5-0b40-4c25-a64b-809dae9f9aac")
+		)
+		(pin "2"
+			(uuid "a829517c-bf5a-45fb-a887-2bb4c3958eaf")
+		)
+		(pin "7"
+			(uuid "25708d6a-46c2-441a-b5fb-025d59380b43")
+		)
+		(pin "14"
+			(uuid "aa52d69d-6302-4020-9ea2-509fc6d99690")
+		)
+		(pin "9"
+			(uuid "1f1ad283-de2e-44dd-86ee-ba27882f64d6")
+		)
+		(pin "4"
+			(uuid "cbf65762-dd9b-4eb5-90c1-131781816231")
+		)
+		(pin "21"
+			(uuid "f6b30786-095f-4acf-b548-54eecc48af95")
+		)
+		(pin "11"
+			(uuid "3d26015f-1763-48c0-86d0-120b63e849de")
+		)
+		(pin "10"
+			(uuid "67c78f41-a9c5-4607-a4a4-e2274b90ef6b")
+		)
+		(pin "6"
+			(uuid "a87e1e93-6be3-45d6-9a08-cb5c81d1259b")
+		)
+		(pin "3"
+			(uuid "07983280-dc16-42c9-91c2-2668aada3f8b")
+		)
+		(pin "15"
+			(uuid "8149f8d0-3c0e-4e00-8bd9-ada3e6c91633")
+		)
+		(pin "1"
+			(uuid "2fe6c62c-5bdd-450f-831e-44d0ebee5247")
+		)
+		(pin "20"
+			(uuid "ea22c606-c230-44a3-a384-a3e2dc01526d")
+		)
+		(pin "13"
+			(uuid "e4fb38c1-98ea-4ef8-8089-8c189ff59589")
+		)
+		(pin "8"
+			(uuid "20ea7522-1289-4c22-8cf6-14cf4310a1fa")
+		)
+		(pin "5"
+			(uuid "cbd8827b-40e4-4c23-94ed-862245483454")
+		)
+		(pin "16"
+			(uuid "adfe31e3-8d5f-4007-a06d-d53bc983ffa6")
+		)
+		(pin "17"
+			(uuid "852d7a4c-de3c-4a88-8900-19ee05147557")
+		)
+		(pin "19"
+			(uuid "c20a49d3-128f-4a43-bd14-2a4a8162bce6")
+		)
+		(pin "18"
+			(uuid "98f94218-3475-4799-af25-91fd5dbbfdf9")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
+					(reference "U6")
 					(unit 1)
 				)
 			)
