@@ -9606,7 +9606,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "012a6481-042b-458d-aeb1-70095abade47")
-		(property "Reference" "C45"
+		(property "Reference" "C16"
 			(at 224.79 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9712,7 +9712,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C45")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -9729,7 +9729,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0472898e-d77c-4c13-87a7-30459032ad16")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR037"
 			(at 219.71 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -9790,7 +9790,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR028")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9807,7 +9807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "0a527d3a-1b72-402c-98c2-bdf73ffda8e6")
-		(property "Reference" "D4"
+		(property "Reference" "D2"
 			(at 42.164 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9916,7 +9916,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "D4")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9933,7 +9933,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "12fd9681-a46e-4a8c-8c97-4372bb17f055")
-		(property "Reference" "C46"
+		(property "Reference" "C19"
 			(at 256.286 133.858 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10039,7 +10039,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C46")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -10057,7 +10057,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "15b53056-cde1-4b3e-b855-e3c848ffa8c6")
-		(property "Reference" "R23"
+		(property "Reference" "R7"
 			(at 163.83 174.752 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10163,7 +10163,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "R23")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -10181,7 +10181,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17370d0e-d140-436f-8ee7-918d367f6fe3")
-		(property "Reference" "C20"
+		(property "Reference" "C2"
 			(at 52.07 146.0499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10289,7 +10289,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C20")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -10306,7 +10306,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19899b84-62fa-477b-b839-347501218eb8")
-		(property "Reference" "FB2"
+		(property "Reference" "FB1"
 			(at 112.268 35.814 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10412,7 +10412,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "FB2")
+					(reference "FB1")
 					(unit 1)
 				)
 			)
@@ -10429,7 +10429,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "19c204aa-95e8-42b8-aa8c-d38f5324426b")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR022"
 			(at 129.54 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10489,7 +10489,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR054")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -10507,7 +10507,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1a8e879b-870b-4ed8-969e-408ad981464c")
-		(property "Reference" "R17"
+		(property "Reference" "R4"
 			(at 93.98 73.66 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10615,7 +10615,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "R17")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -10633,7 +10633,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1b1cecd8-a292-41d8-84a8-e273a0e9300f")
-		(property "Reference" "#PWR049"
+		(property "Reference" "#PWR016"
 			(at 88.9 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -10694,7 +10694,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR049")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -10711,7 +10711,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1c9d2ff6-95c1-41b5-bb74-e54d0f08190b")
-		(property "Reference" "TP5"
+		(property "Reference" "TP6"
 			(at 137.16 62.23 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10773,7 +10773,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "TP5")
+					(reference "TP6")
 					(unit 1)
 				)
 			)
@@ -10790,7 +10790,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "1fe52b58-9861-485d-b7cd-e259572c33d1")
-		(property "Reference" "#PWR043"
+		(property "Reference" "#PWR041"
 			(at 255.27 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -10851,7 +10851,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR043")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -10868,7 +10868,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "21a316e0-193c-4d45-b9ad-1e9b1bb1b0d2")
-		(property "Reference" "#PWR057"
+		(property "Reference" "#PWR019"
 			(at 121.92 34.29 0)
 			(hide yes)
 			(show_name no)
@@ -10928,7 +10928,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR057")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -10946,7 +10946,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3104313c-38ff-4b23-8568-796d5eac12ba")
-		(property "Reference" "C27"
+		(property "Reference" "C17"
 			(at 251.206 89.662 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11052,7 +11052,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C27")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -11071,7 +11071,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "33386232-c300-475c-af8f-eacc37cedacf")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR012"
 			(at 76.2 177.8 0)
 			(hide yes)
 			(show_name no)
@@ -11132,7 +11132,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR01")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11149,7 +11149,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3719c13a-c8ef-43f2-ae13-ebbcaea8be97")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR014"
 			(at 81.28 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11209,7 +11209,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR020")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -11226,7 +11226,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "37646776-219b-4d08-9caa-7c06ad35a001")
-		(property "Reference" "C29"
+		(property "Reference" "C11"
 			(at 104.394 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11334,7 +11334,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C29")
+					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -11352,7 +11352,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "382f2e3b-5363-4e3a-8f7d-062ba0529a82")
-		(property "Reference" "#PWR048"
+		(property "Reference" "#PWR011"
 			(at 66.04 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -11413,7 +11413,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR048")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -11431,7 +11431,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "385cca6c-0af1-4f32-8f41-e2586e708221")
-		(property "Reference" "J3"
+		(property "Reference" "J2"
 			(at 118.11 184.1499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11552,7 +11552,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "J3")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -11569,7 +11569,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "38e0c814-3653-46e8-9160-44bb2463ef02")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR032"
 			(at 194.31 163.83 0)
 			(hide yes)
 			(show_name no)
@@ -11630,7 +11630,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR024")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -11647,7 +11647,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a70268b-8efc-4c0a-8848-042cf4f622f8")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR013"
 			(at 80.01 191.77 0)
 			(hide yes)
 			(show_name no)
@@ -11708,7 +11708,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR06")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -11727,7 +11727,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3e431254-cca1-4bca-9e50-e73803931c5f")
-		(property "Reference" "R8"
+		(property "Reference" "R1"
 			(at 77.47 96.5199 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11835,7 +11835,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "R8")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -11852,7 +11852,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3e5fc9f8-d075-4be7-afcb-34276b410373")
-		(property "Reference" "#PWR056"
+		(property "Reference" "#PWR046"
 			(at 273.05 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -11912,7 +11912,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR056")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -11929,7 +11929,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45432849-e6cd-4a21-9b40-5e05e07ce9f5")
-		(property "Reference" "#PWR036"
+		(property "Reference" "#PWR042"
 			(at 255.27 146.05 0)
 			(hide yes)
 			(show_name no)
@@ -11990,7 +11990,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR036")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -12007,7 +12007,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "45449050-62c6-4e7a-b880-b335d39caad8")
-		(property "Reference" "D9"
+		(property "Reference" "D5"
 			(at 61.468 186.436 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12116,7 +12116,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "D9")
+					(reference "D5")
 					(unit 1)
 				)
 			)
@@ -12338,7 +12338,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b177fc9-c773-48fa-97df-e35a206f3266")
-		(property "Reference" "#PWR058"
+		(property "Reference" "#PWR024"
 			(at 134.62 39.37 0)
 			(hide yes)
 			(show_name no)
@@ -12399,7 +12399,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR058")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -12416,7 +12416,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "4d01f218-65f5-4b06-acc2-5d6c23f00144")
-		(property "Reference" "D7"
+		(property "Reference" "D8"
 			(at 134.366 187.706 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12525,7 +12525,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "D7")
+					(reference "D8")
 					(unit 1)
 				)
 			)
@@ -12542,7 +12542,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5584b77f-bdcf-4626-9c93-856f8ab3a2e2")
-		(property "Reference" "D3"
+		(property "Reference" "D1"
 			(at 35.814 186.944 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12651,7 +12651,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "D3")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -12669,7 +12669,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "591e829b-fda5-4610-bc39-3f6dc105cd0d")
-		(property "Reference" "#FLG04"
+		(property "Reference" "#FLG01"
 			(at 120.015 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -12731,7 +12731,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#FLG04")
+					(reference "#FLG01")
 					(unit 1)
 				)
 			)
@@ -12749,7 +12749,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "5e424247-37ef-4c51-842b-516f134d0b9d")
-		(property "Reference" "TP15"
+		(property "Reference" "TP12"
 			(at 136.652 92.71 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12811,7 +12811,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "TP15")
+					(reference "TP12")
 					(unit 1)
 				)
 			)
@@ -12828,7 +12828,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "629ab324-c78d-4696-8151-fe3295378225")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR039"
 			(at 229.87 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -12889,7 +12889,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR034")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -12907,7 +12907,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "657a58c7-909d-4e21-bf80-7a6045ecdaaa")
-		(property "Reference" "#PWR047"
+		(property "Reference" "#PWR018"
 			(at 110.49 142.24 0)
 			(hide yes)
 			(show_name no)
@@ -12968,7 +12968,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR047")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -12986,7 +12986,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66c279ae-32f2-4bc7-a7be-1e2b2e0a22de")
-		(property "Reference" "J5"
+		(property "Reference" "J3"
 			(at 139.446 185.166 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13107,7 +13107,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "J5")
+					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13125,7 +13125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "66e205f3-98fe-471f-afce-2817a8961143")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR028"
 			(at 168.91 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -13185,7 +13185,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR055")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -13282,7 +13282,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6c4e86d9-7488-4971-80dd-43fd10be9a27")
-		(property "Reference" "C30"
+		(property "Reference" "C12"
 			(at 128.778 33.274 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13390,7 +13390,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C30")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -13408,7 +13408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d74d9f9-6142-4a85-87ad-61488a5459ab")
-		(property "Reference" "U9"
+		(property "Reference" "U2"
 			(at 113.9033 133.35 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13667,7 +13667,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "U9")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -13685,7 +13685,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "725e1d4f-0deb-411e-a984-eefc461b2bf5")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR05"
 			(at 34.29 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -13746,7 +13746,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR09")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -13763,7 +13763,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "72a6b788-489c-44a8-9abf-9a1daa84e4a0")
-		(property "Reference" "#PWR044"
+		(property "Reference" "#PWR040"
 			(at 246.38 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -13824,7 +13824,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR044")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -13841,7 +13841,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7313fbab-a67f-4d47-a8b4-1870124d2fa6")
-		(property "Reference" "TP7"
+		(property "Reference" "TP10"
 			(at 136.906 74.93 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13903,7 +13903,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "TP7")
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -13920,7 +13920,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "73f17bee-11cf-4ec1-a7e1-2a8268bf7619")
-		(property "Reference" "TP8"
+		(property "Reference" "TP3"
 			(at 69.342 97.282 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13982,7 +13982,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "TP8")
+					(reference "TP3")
 					(unit 1)
 				)
 			)
@@ -14000,7 +14000,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "747a4cbd-73cc-43d6-b986-65309a758162")
-		(property "Reference" "R28"
+		(property "Reference" "R6"
 			(at 132.08 176.5299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14108,7 +14108,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "R28")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -14125,7 +14125,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "75d436dc-d075-4e9e-a9a1-36cc78d827c5")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR017"
 			(at 96.52 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -14186,7 +14186,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR04")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -14203,7 +14203,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "776914c2-4395-4a90-87f1-4000c8861bb3")
-		(property "Reference" "C25"
+		(property "Reference" "C6"
 			(at 75.184 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14311,7 +14311,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C25")
+					(reference "C6")
 					(unit 1)
 				)
 			)
@@ -14328,7 +14328,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "77aa40ca-e543-414c-951c-9285476467fd")
-		(property "Reference" "R10"
+		(property "Reference" "R3"
 			(at 84.328 97.282 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14436,7 +14436,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "R10")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -14453,7 +14453,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7b96e82f-6e81-4074-b200-e08b094db564")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 19.05 167.64 0)
 			(hide yes)
 			(show_name no)
@@ -14513,7 +14513,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -14530,7 +14530,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7c3e2c1b-8c0c-48ea-a85d-b3017cc7ea25")
-		(property "Reference" "C26"
+		(property "Reference" "C9"
 			(at 85.344 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14638,7 +14638,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C26")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -14655,7 +14655,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7cd2fe79-3ef9-42d6-a865-78e730ce5ff9")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR036"
 			(at 218.44 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -14716,7 +14716,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR031")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -14733,7 +14733,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7d058132-608c-4b16-911e-849c4a8323f9")
-		(property "Reference" "D11"
+		(property "Reference" "D7"
 			(at 128.778 112.014 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14852,7 +14852,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "D11")
+					(reference "D7")
 					(unit 1)
 				)
 			)
@@ -14996,7 +14996,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7f230f31-4c36-4415-b552-26101b4a6b51")
-		(property "Reference" "#PWR045"
+		(property "Reference" "#PWR07"
 			(at 48.26 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -15057,7 +15057,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR045")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -15074,7 +15074,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "84830e75-92d4-4040-a64c-2eb08e7bcbd9")
-		(property "Reference" "#PWR039"
+		(property "Reference" "#PWR026"
 			(at 148.59 195.58 0)
 			(hide yes)
 			(show_name no)
@@ -15135,7 +15135,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR039")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -15278,7 +15278,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8787cdc1-15b5-45b0-943d-b654cb5e6009")
-		(property "Reference" "D5"
+		(property "Reference" "D3"
 			(at 48.768 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15387,7 +15387,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "D5")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -15404,7 +15404,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "879530c9-0ceb-4d4d-8d34-c78068e1e8b2")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR023"
 			(at 132.08 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -15465,7 +15465,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR010")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -15482,7 +15482,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "8d8cd791-d27d-44a2-8111-4a2b2ae2592c")
-		(property "Reference" "C47"
+		(property "Reference" "C18"
 			(at 251.206 95.758 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15588,7 +15588,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C47")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -15605,7 +15605,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "900cde01-9f0d-4660-9c01-bf02b2b5f0ad")
-		(property "Reference" "D1"
+		(property "Reference" "D6"
 			(at 89.916 191.262 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15720,7 +15720,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "D1")
+					(reference "D6")
 					(unit 1)
 				)
 			)
@@ -15738,7 +15738,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "923b829d-6126-4f2d-b815-ebbeea3a46bf")
-		(property "Reference" "TP12"
+		(property "Reference" "TP7"
 			(at 139.192 64.77 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15799,7 +15799,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "TP12")
+					(reference "TP7")
 					(unit 1)
 				)
 			)
@@ -15816,7 +15816,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "97b50c9c-493b-4ee1-b314-05867ad3c5df")
-		(property "Reference" "R18"
+		(property "Reference" "R2"
 			(at 82.55 79.248 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15922,7 +15922,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "R18")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -15939,7 +15939,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "98307fdf-8cc9-4747-979a-2d9f73cd952f")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR09"
 			(at 60.96 43.18 0)
 			(hide yes)
 			(show_name no)
@@ -15999,7 +15999,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR050")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -16016,7 +16016,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9c7b42f8-0fa5-41e1-a5bb-5b2d94c012af")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR034"
 			(at 214.63 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -16076,7 +16076,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR029")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -16094,7 +16094,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cf68bb0-69f3-44b2-8bfd-6a8cd213a15c")
-		(property "Reference" "R29"
+		(property "Reference" "R8"
 			(at 163.83 184.15 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16200,7 +16200,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "R29")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -16217,7 +16217,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9f7c1508-c86d-44a0-983d-b5f2490353a5")
-		(property "Reference" "D12"
+		(property "Reference" "D10"
 			(at 160.274 189.992 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16326,7 +16326,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "D12")
+					(reference "D10")
 					(unit 1)
 				)
 			)
@@ -16343,7 +16343,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9fcaf2be-7120-48df-a2a0-28f2f2aa2fdd")
-		(property "Reference" "#PWR042"
+		(property "Reference" "#PWR043"
 			(at 265.43 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -16404,7 +16404,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR042")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -16421,7 +16421,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2a68b6e-ef96-42b1-9741-961494ea7a51")
-		(property "Reference" "C24"
+		(property "Reference" "C3"
 			(at 63.754 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16529,7 +16529,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C24")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -16546,7 +16546,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a2ac3239-96b7-41b2-9831-d0a216ceb1ce")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR01"
 			(at 17.78 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -16606,7 +16606,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR066")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -16623,7 +16623,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a3061adb-c53c-42e0-abe1-a7bdae4a74a9")
-		(property "Reference" "U6"
+		(property "Reference" "U5"
 			(at 266.7 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16790,7 +16790,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "U6")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -16807,7 +16807,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a53411af-7864-4375-90fa-7cb555380268")
-		(property "Reference" "#PWR041"
+		(property "Reference" "#PWR027"
 			(at 154.94 199.39 0)
 			(hide yes)
 			(show_name no)
@@ -16868,7 +16868,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR041")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -16885,7 +16885,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a5a59e19-0d36-4d58-9db4-a3ecf1ae9bc8")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR044"
 			(at 265.43 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -16945,7 +16945,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR053")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -17055,7 +17055,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "a9b4f744-94b8-4e7c-bbd9-5c1f00025aa3")
-		(property "Reference" "TP4"
+		(property "Reference" "TP5"
 			(at 89.916 57.15 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17117,7 +17117,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "TP4")
+					(reference "TP5")
 					(unit 1)
 				)
 			)
@@ -17134,7 +17134,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "aaf01c4a-41b4-42de-b197-2948d7829a7f")
-		(property "Reference" "TP9"
+		(property "Reference" "TP4"
 			(at 82.296 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17196,7 +17196,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "TP9")
+					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -17213,7 +17213,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ab72a857-f6d4-4994-95e4-adaf4fb1b5c2")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR035"
 			(at 214.63 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -17274,7 +17274,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR030")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -17291,7 +17291,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b97d37e8-67d2-446c-8f20-2918207cb50a")
-		(property "Reference" "D8"
+		(property "Reference" "D9"
 			(at 153.416 186.436 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17400,7 +17400,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "D8")
+					(reference "D9")
 					(unit 1)
 				)
 			)
@@ -17417,7 +17417,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bb457d1d-5b3b-46f0-8d7f-10cb80e7e9a3")
-		(property "Reference" "#PWR060"
+		(property "Reference" "#PWR031"
 			(at 194.31 137.16 0)
 			(hide yes)
 			(show_name no)
@@ -17477,7 +17477,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR060")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -17494,7 +17494,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bbd85244-47de-4f54-83ea-34a368548f92")
-		(property "Reference" "C31"
+		(property "Reference" "C13"
 			(at 125.476 39.37 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17602,7 +17602,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C31")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -17619,7 +17619,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "be6e104f-a794-49c0-a269-ed98ac864ab6")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR033"
 			(at 207.01 143.51 0)
 			(hide yes)
 			(show_name no)
@@ -17680,7 +17680,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR026")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -17698,7 +17698,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "bf9078d6-ebcf-4dd8-b79c-c29990d7b5d0")
-		(property "Reference" "C36"
+		(property "Reference" "C15"
 			(at 204.216 130.81 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17804,7 +17804,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C36")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -17822,7 +17822,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bfd8015e-220f-4c9b-bf04-06bdf4909ebf")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR06"
 			(at 36.83 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -17883,7 +17883,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR023")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -17901,7 +17901,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c17c7c5c-8e50-4a3e-94e9-f294fb68d09e")
-		(property "Reference" "C23"
+		(property "Reference" "C5"
 			(at 71.12 81.026 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18007,7 +18007,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C23")
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -18024,7 +18024,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "c8705a00-8340-462f-b3b0-6f224675ad6e")
-		(property "Reference" "U3"
+		(property "Reference" "U1"
 			(at 31.496 150.622 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18134,7 +18134,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -18152,7 +18152,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d61def68-b18d-4662-af08-027b58258dc9")
-		(property "Reference" "#PWR051"
+		(property "Reference" "#PWR010"
 			(at 60.96 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -18213,7 +18213,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR051")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -18378,7 +18378,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d6d06094-501d-4437-ba30-432fd6616073")
-		(property "Reference" "#PWR035"
+		(property "Reference" "#PWR020"
 			(at 128.27 128.27 0)
 			(hide yes)
 			(show_name no)
@@ -18439,7 +18439,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR035")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -18457,7 +18457,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d78922e1-36c8-4b13-8c26-21b8f1231087")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR03"
 			(at 19.05 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -18518,7 +18518,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR05")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -18536,7 +18536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d80629c5-b6b4-4a6f-a86a-08e19addaff6")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR025"
 			(at 134.62 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -18597,7 +18597,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR059")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -18614,7 +18614,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "d8b25845-a76b-4b84-9fcb-15b1d760aeb9")
-		(property "Reference" "TP2"
+		(property "Reference" "TP1"
 			(at 26.416 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18676,7 +18676,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "TP2")
+					(reference "TP1")
 					(unit 1)
 				)
 			)
@@ -18693,7 +18693,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "dc691d48-f038-4128-bd1d-18fd4e6ef608")
-		(property "Reference" "Y2"
+		(property "Reference" "Y1"
 			(at 80.518 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -18801,7 +18801,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "Y2")
+					(reference "Y1")
 					(unit 1)
 				)
 			)
@@ -18818,7 +18818,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ddb48768-4f6c-4083-b093-d4f01cf55823")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR021"
 			(at 128.27 194.31 0)
 			(hide yes)
 			(show_name no)
@@ -18879,7 +18879,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR08")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -18897,7 +18897,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "de2427c4-dc1d-4158-8ac7-95b5f495923b")
-		(property "Reference" "C32"
+		(property "Reference" "C14"
 			(at 129.032 55.88 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19005,7 +19005,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C32")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -19024,7 +19024,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0064aad-0f51-402d-8908-f8a2b0d4c3a4")
-		(property "Reference" "C21"
+		(property "Reference" "C7"
 			(at 76.2 54.61 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19130,7 +19130,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C21")
+					(reference "C7")
 					(unit 1)
 				)
 			)
@@ -19147,7 +19147,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e062db17-7d05-4935-a52d-9d7b2abbfb48")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR045"
 			(at 265.43 162.56 0)
 			(hide yes)
 			(show_name no)
@@ -19208,7 +19208,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR038")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -19225,7 +19225,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e3324d4c-1258-4a5d-82fe-e93339a3425e")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR030"
 			(at 182.88 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -19286,7 +19286,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR027")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -19428,7 +19428,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e47f47e6-9688-4171-a4ab-3cdc7770c5f4")
-		(property "Reference" "C22"
+		(property "Reference" "C4"
 			(at 71.12 70.866 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19534,7 +19534,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C22")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -19551,7 +19551,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e4e4882a-f924-4893-8001-8b3081e0ffa9")
-		(property "Reference" "R11"
+		(property "Reference" "R5"
 			(at 130.048 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19659,7 +19659,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "R11")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -19677,7 +19677,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "e7b5b3a3-8aab-446e-a952-bfae84d05b5c")
-		(property "Reference" "TP14"
+		(property "Reference" "TP11"
 			(at 139.192 90.17 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19738,7 +19738,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "TP14")
+					(reference "TP11")
 					(unit 1)
 				)
 			)
@@ -19756,7 +19756,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ec6d1498-c9c5-4d73-be63-c376f55b91f6")
-		(property "Reference" "C35"
+		(property "Reference" "C8"
 			(at 76.2 179.0699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -19864,7 +19864,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C35")
+					(reference "C8")
 					(unit 1)
 				)
 			)
@@ -19881,7 +19881,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "ed037cfd-a280-4c67-9a18-9db3bea1f04c")
-		(property "Reference" "U1"
+		(property "Reference" "U3"
 			(at 186.944 157.734 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20007,7 +20007,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "U1")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -20025,7 +20025,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "efbb414f-4cab-4c05-a39d-94c3cf473bec")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR029"
 			(at 182.88 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -20085,7 +20085,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR062")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -20102,7 +20102,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f138e221-7576-4b61-96c0-3824f0b4c7a0")
-		(property "Reference" "C28"
+		(property "Reference" "C10"
 			(at 95.504 44.45 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20210,7 +20210,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "C28")
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -20228,7 +20228,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2261146-c523-48f9-b3f1-d7a29d86b009")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR038"
 			(at 229.87 140.97 0)
 			(hide yes)
 			(show_name no)
@@ -20288,7 +20288,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR052")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -20306,7 +20306,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f2c39217-3412-441e-a821-46e9599c763d")
-		(property "Reference" "TP13"
+		(property "Reference" "TP9"
 			(at 139.192 72.39 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20367,7 +20367,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "TP13")
+					(reference "TP9")
 					(unit 1)
 				)
 			)
@@ -20384,7 +20384,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f344998c-d025-41e3-ae84-e7da975d1adc")
-		(property "Reference" "TP6"
+		(property "Reference" "TP8"
 			(at 136.906 67.31 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20446,7 +20446,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "TP6")
+					(reference "TP8")
 					(unit 1)
 				)
 			)
@@ -20463,7 +20463,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "f745c0a4-0ac6-4865-bf04-4e4bc128dd82")
-		(property "Reference" "U7"
+		(property "Reference" "U6"
 			(at 277.114 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -20587,7 +20587,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "U7")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -20605,7 +20605,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f7f306f4-59e0-4dd8-9e9a-855701cf9abc")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR015"
 			(at 85.09 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -20666,7 +20666,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR025")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -20808,7 +20808,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb1063a6-ac35-4e9b-b515-b904be84d8ed")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR04"
 			(at 25.4 158.75 0)
 			(hide yes)
 			(show_name no)
@@ -20869,7 +20869,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR021")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -20887,7 +20887,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fbadbd35-8cec-4dc2-88fa-c65e92551c81")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR08"
 			(at 50.8 144.78 0)
 			(hide yes)
 			(show_name no)
@@ -20948,7 +20948,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "#PWR02")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -20965,7 +20965,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe7c3c54-0622-4067-9c23-5d526ac7a73e")
-		(property "Reference" "D6"
+		(property "Reference" "D4"
 			(at 55.118 186.69 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21074,7 +21074,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "D6")
+					(reference "D4")
 					(unit 1)
 				)
 			)
@@ -21091,7 +21091,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "fe7ce25c-e43c-411f-9bc6-c22bce030dbc")
-		(property "Reference" "TP3"
+		(property "Reference" "TP2"
 			(at 43.942 136.652 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -21153,7 +21153,7 @@
 		(instances
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573"
-					(reference "TP3")
+					(reference "TP2")
 					(unit 1)
 				)
 			)
