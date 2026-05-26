@@ -523,7 +523,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Connector_Generic:Conn_01x04"
+		(symbol "Connector_Generic:Conn_01x06"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -534,7 +534,7 @@
 			(in_pos_files yes)
 			(duplicate_pin_numbers_are_jumpers no)
 			(property "Reference" "J"
-				(at 0 5.08 0)
+				(at 0 7.62 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -543,8 +543,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x04"
-				(at 0 -7.62 0)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -575,7 +575,7 @@
 					)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -608,16 +608,27 @@
 					)
 				)
 			)
-			(symbol "Conn_01x04_1_1"
+			(symbol "Conn_01x06_1_1"
 				(rectangle
-					(start -1.27 3.81)
-					(end 1.27 -6.35)
+					(start -1.27 6.35)
+					(end 1.27 -8.89)
 					(stroke
 						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 5.207)
+					(end 0 4.953)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
 					)
 				)
 				(rectangle
@@ -664,8 +675,19 @@
 						(type none)
 					)
 				)
+				(rectangle
+					(start -1.27 -7.493)
+					(end 0 -7.747)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at -5.08 2.54 0)
+					(at -5.08 5.08 0)
 					(length 3.81)
 					(name "Pin_1"
 						(effects
@@ -683,7 +705,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 0 0)
+					(at -5.08 2.54 0)
 					(length 3.81)
 					(name "Pin_2"
 						(effects
@@ -701,7 +723,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -2.54 0)
+					(at -5.08 0 0)
 					(length 3.81)
 					(name "Pin_3"
 						(effects
@@ -719,7 +741,7 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -5.08 0)
+					(at -5.08 -2.54 0)
 					(length 3.81)
 					(name "Pin_4"
 						(effects
@@ -729,6 +751,42 @@
 						)
 					)
 					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -7.62 0)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5927,7 +5985,7 @@
 	)
 	(text "Rain"
 		(exclude_from_sim no)
-		(at 120.904 193.04 0)
+		(at 120.904 194.564 0)
 		(effects
 			(font
 				(size 1.905 1.905)
@@ -6184,6 +6242,12 @@
 		(uuid "7acaad4f-4099-45fd-addc-e8c4ee48eacb")
 	)
 	(junction
+		(at 148.59 186.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7c55eb8c-1d99-4e13-828b-3cb96a70b0e3")
+	)
+	(junction
 		(at 40.64 191.77)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6248,12 +6312,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ac09fba8-3ccb-4c7b-8c01-6e7d2d3fb5e7")
-	)
-	(junction
-		(at 148.59 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "be1777ba-6a03-4160-afe0-4fb5cbaceef1")
 	)
 	(junction
 		(at 77.47 77.47)
@@ -6324,8 +6382,36 @@
 		(uuid "52b0c9f8-509f-477f-ab64-d007b8587f9c")
 	)
 	(no_connect
+		(at 125.73 177.8)
+		(uuid "52b13700-ab3a-4016-ad44-d4edd007c066")
+	)
+	(no_connect
+		(at 124.46 82.55)
+		(uuid "5a1bd48a-e655-4c6c-9a81-e581526b84b6")
+	)
+	(no_connect
+		(at 124.46 87.63)
+		(uuid "65b271c8-3904-4a36-8e0f-ce3492b8da63")
+	)
+	(no_connect
 		(at 125.73 187.96)
 		(uuid "6c9dd42c-f7fb-47c2-a544-5f8dd2d6577d")
+	)
+	(no_connect
+		(at 125.73 190.5)
+		(uuid "6e6a155a-7ccd-4278-8427-c8b0ccfed728")
+	)
+	(no_connect
+		(at 147.32 189.23)
+		(uuid "73029594-82a9-44a7-bb3e-c28e6b685265")
+	)
+	(no_connect
+		(at 124.46 80.01)
+		(uuid "7657804c-93cb-44e0-a0b9-97165d85fc29")
+	)
+	(no_connect
+		(at 93.98 97.79)
+		(uuid "7948b0e7-9baf-474f-bbfa-bd92127d2aa1")
 	)
 	(no_connect
 		(at 93.98 80.01)
@@ -6344,6 +6430,18 @@
 		(uuid "9b0b14e8-0e05-4ef1-98e8-23bdad6c16da")
 	)
 	(no_connect
+		(at 147.32 176.53)
+		(uuid "a778c6c8-6cad-44e1-bd55-ebb1656f27f6")
+	)
+	(no_connect
+		(at 124.46 69.85)
+		(uuid "b1dea223-267c-42b1-b35b-1bbc8497bbf7")
+	)
+	(no_connect
+		(at 124.46 74.93)
+		(uuid "bd17f0ed-7471-40ee-92cc-93c769274df7")
+	)
+	(no_connect
 		(at 125.73 180.34)
 		(uuid "c3f4e884-6187-4563-89ae-d64c03244922")
 	)
@@ -6354,6 +6452,10 @@
 	(no_connect
 		(at 104.14 184.15)
 		(uuid "e4b701eb-250a-432c-a3d3-215167bfd38b")
+	)
+	(no_connect
+		(at 93.98 115.57)
+		(uuid "f87a6452-ff14-4e2e-a235-1d722fd3c540")
 	)
 	(wire
 		(pts
@@ -6457,7 +6559,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 186.69) (xy 148.59 187.96)
+			(xy 148.59 186.69) (xy 148.59 189.23)
 		)
 		(stroke
 			(width 0)
@@ -11113,7 +11215,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "Connector_Generic:Conn_01x06")
 		(at 120.65 182.88 0)
 		(mirror y)
 		(unit 1)
@@ -11147,7 +11249,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ25_Wayconn_MJEA-660X1_Horizontal"
 			(at 120.65 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11169,7 +11271,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 120.65 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -11191,6 +11293,12 @@
 		)
 		(pin "4"
 			(uuid "254b02b2-49b3-4135-8757-fdc5f0408621")
+		)
+		(pin "6"
+			(uuid "cbe645f5-6c65-42cc-9496-e1a7ce5f3c8f")
+		)
+		(pin "5"
+			(uuid "7b0c0e09-5e81-40ef-a762-8e9d5d25d748")
 		)
 		(instances
 			(project "carte-meteo-lora-1"
@@ -12538,7 +12646,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x04")
+		(lib_id "Connector_Generic:Conn_01x06")
 		(at 142.24 181.61 0)
 		(mirror y)
 		(unit 1)
@@ -12572,7 +12680,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_RJ:RJ25_Wayconn_MJEA-660X1_Horizontal"
 			(at 142.24 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12594,7 +12702,7 @@
 				)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 142.24 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -12616,6 +12724,12 @@
 		)
 		(pin "4"
 			(uuid "bc9b18a7-a23d-4c6d-81a8-ea9aa57a19f0")
+		)
+		(pin "6"
+			(uuid "9da30004-de61-4d2c-8148-97ca2588e146")
+		)
+		(pin "5"
+			(uuid "53877dbd-d3c1-42aa-999e-1e26b803774a")
 		)
 		(instances
 			(project "carte-meteo-lora-1"
@@ -14433,7 +14547,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 148.59 187.96 0)
+		(at 148.59 189.23 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -14443,7 +14557,7 @@
 		(dnp no)
 		(uuid "84830e75-92d4-4040-a64c-2eb08e7bcbd9")
 		(property "Reference" "#PWR039"
-			(at 148.59 194.31 0)
+			(at 148.59 195.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14454,7 +14568,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 148.59 192.278 0)
+			(at 148.59 193.548 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14465,7 +14579,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 148.59 187.96 0)
+			(at 148.59 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14476,7 +14590,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 148.59 187.96 0)
+			(at 148.59 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14487,7 +14601,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 148.59 187.96 0)
+			(at 148.59 189.23 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)

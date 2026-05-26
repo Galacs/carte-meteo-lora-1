@@ -4215,7 +4215,7 @@
 	)
 	(rectangle
 		(start 203.2 92.71)
-		(end 275.59 125.73)
+		(end 276.86 125.73)
 		(stroke
 			(width 0)
 			(type dash)
@@ -7703,7 +7703,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.64 98.7552 0)
 			(hide yes)
 			(show_name no)
@@ -8992,7 +8992,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 167.64 76.5048 0)
 			(hide yes)
 			(show_name no)
@@ -10529,7 +10529,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 113.9952 119.38 0)
 			(hide yes)
 			(show_name no)
