@@ -627,6 +627,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -4309,6 +4432,12 @@
 		(uuid "1a7fc2bc-96c1-4517-9313-e42e05aed9b5")
 	)
 	(junction
+		(at 109.22 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2c00c36b-69fc-43e2-b5a8-dc36a37d21b2")
+	)
+	(junction
 		(at 187.96 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4325,6 +4454,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a667f84-c19e-4c61-9501-abf9ab00d2dd")
+	)
+	(junction
+		(at 109.22 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3ce129e5-be44-4adf-907b-affbd6fa8431")
 	)
 	(junction
 		(at 190.5 82.55)
@@ -4379,6 +4514,24 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5dc36d78-f695-4c3f-a7d0-8926143a7acf")
+	)
+	(junction
+		(at 111.76 110.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e9a1245-8a9a-4ae0-94ae-e8f15a653c2a")
+	)
+	(junction
+		(at 251.46 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61dc8377-bc01-4e5f-a4dd-61e9e5132a78")
+	)
+	(junction
+		(at 167.64 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "735884e2-7b13-4a39-9336-3374705c201c")
 	)
 	(junction
 		(at 113.03 110.49)
@@ -4826,6 +4979,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 102.87) (xy 255.27 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ea24a7b-1692-43f3-bdc5-e610c8a49655")
+	)
+	(wire
+		(pts
 			(xy 190.5 72.39) (xy 190.5 73.66)
 		)
 		(stroke
@@ -5176,7 +5339,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 93.98) (xy 102.87 93.98)
+			(xy 115.57 93.98) (xy 109.22 93.98)
 		)
 		(stroke
 			(width 0)
@@ -5206,7 +5369,7 @@
 	)
 	(wire
 		(pts
-			(xy 113.03 110.49) (xy 102.87 110.49)
+			(xy 113.03 110.49) (xy 111.76 110.49)
 		)
 		(stroke
 			(width 0)
@@ -5273,16 +5436,6 @@
 			(type default)
 		)
 		(uuid "68d3b9a4-ce9d-44a8-8dfd-53b21693cf83")
-	)
-	(wire
-		(pts
-			(xy 123.19 123.19) (xy 138.43 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6922bc2b-907a-429e-b884-ebbd80c572af")
 	)
 	(wire
 		(pts
@@ -5496,6 +5649,16 @@
 	)
 	(wire
 		(pts
+			(xy 109.22 68.58) (xy 102.87 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8430c0b1-5aee-4778-b571-0ac53edd4ec3")
+	)
+	(wire
+		(pts
 			(xy 124.46 68.58) (xy 115.57 68.58)
 		)
 		(stroke
@@ -5533,6 +5696,16 @@
 			(type default)
 		)
 		(uuid "86385ffa-75e4-43e6-9dd2-e30cbe4980b5")
+	)
+	(wire
+		(pts
+			(xy 111.76 110.49) (xy 102.87 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "878b8236-d6b0-4fc0-b19a-39b60c794afa")
 	)
 	(wire
 		(pts
@@ -5636,7 +5809,7 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 102.87) (xy 255.27 102.87)
+			(xy 247.65 102.87) (xy 251.46 102.87)
 		)
 		(stroke
 			(width 0)
@@ -6146,6 +6319,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 72.39) (xy 180.34 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3d41260-2aeb-4b99-aac7-70ddb74239b6")
+	)
+	(wire
+		(pts
 			(xy 185.42 82.55) (xy 185.42 81.28)
 		)
 		(stroke
@@ -6206,7 +6389,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 72.39) (xy 180.34 72.39)
+			(xy 158.75 72.39) (xy 167.64 72.39)
 		)
 		(stroke
 			(width 0)
@@ -6283,6 +6466,16 @@
 			(type default)
 		)
 		(uuid "e0292174-485f-481f-a217-b47d4f01e47f")
+	)
+	(wire
+		(pts
+			(xy 109.22 93.98) (xy 102.87 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e219ba99-67f3-434a-a0ad-b934a9f19605")
 	)
 	(wire
 		(pts
@@ -6396,6 +6589,16 @@
 	)
 	(wire
 		(pts
+			(xy 123.19 123.19) (xy 138.43 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ec608265-d780-4f56-ae5e-e6266f721b8f")
+	)
+	(wire
+		(pts
 			(xy 76.2 95.25) (xy 76.2 93.98)
 		)
 		(stroke
@@ -6436,7 +6639,7 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 68.58) (xy 102.87 68.58)
+			(xy 115.57 68.58) (xy 109.22 68.58)
 		)
 		(stroke
 			(width 0)
@@ -8432,6 +8635,85 @@
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573/9999b4d2-cbfb-4c4d-87a4-97a3463f3d3b"
 					(reference "R12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 111.76 110.49 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "428e94b7-28fc-4e4a-a694-2b3dbcaa34f7")
+		(property "Reference" "TP10"
+			(at 109.728 104.648 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 114.3 108.4579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 116.84 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 116.84 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 111.76 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6958219a-8082-48ad-bb3f-b467335a35f5")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573/9999b4d2-cbfb-4c4d-87a4-97a3463f3d3b"
+					(reference "TP10")
 					(unit 1)
 				)
 			)
@@ -11381,6 +11663,85 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 167.64 72.39 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8c0bfd82-dc0b-4f02-929a-e6092302e44e")
+		(property "Reference" "TP11"
+			(at 165.608 66.548 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 170.18 70.3579 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 172.72 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 172.72 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 167.64 72.39 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "954ce0a4-315c-4d50-9024-67d4838cbf36")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573/9999b4d2-cbfb-4c4d-87a4-97a3463f3d3b"
+					(reference "TP11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 180.34 123.19 0)
 		(unit 1)
@@ -11931,6 +12292,85 @@
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573/9999b4d2-cbfb-4c4d-87a4-97a3463f3d3b"
 					(reference "#PWR0109")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 251.46 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9d530c6d-bbd2-4e2d-80f2-3c4f04883a3d")
+		(property "Reference" "TP18"
+			(at 252.476 98.298 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 254 100.8379 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 256.54 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 256.54 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 251.46 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "f1583b21-3dad-4b50-bc9b-0a60d8e56781")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573/9999b4d2-cbfb-4c4d-87a4-97a3463f3d3b"
+					(reference "TP18")
 					(unit 1)
 				)
 			)
@@ -12715,6 +13155,85 @@
 			(project "carte-meteo-lora-1"
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573/9999b4d2-cbfb-4c4d-87a4-97a3463f3d3b"
 					(reference "#PWR0108")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 68.58 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b50e09d4-81f7-435a-9279-6bfa921ddd48")
+		(property "Reference" "TP17"
+			(at 111.252 74.422 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 106.68 70.6121 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 104.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c926e819-9782-4102-aa08-0c851ce33739")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573/9999b4d2-cbfb-4c4d-87a4-97a3463f3d3b"
+					(reference "TP17")
 					(unit 1)
 				)
 			)
@@ -14405,6 +14924,85 @@
 				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573/9999b4d2-cbfb-4c4d-87a4-97a3463f3d3b"
 					(reference "Q1")
 					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 109.22 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "ee1a4e79-46ce-44c8-97cf-48db78e6fb62")
+		(property "Reference" "TP16"
+			(at 107.188 88.138 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "TestPoint"
+			(at 111.76 91.9479 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_D2.0mm"
+			(at 114.3 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 109.22 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a6508587-1e0a-4519-9cd4-ddf83659410a")
+		)
+		(instances
+			(project "carte-meteo-lora-1"
+				(path "/13f499c2-4dc3-4e2c-8cf4-c7d5e00eb573/9999b4d2-cbfb-4c4d-87a4-97a3463f3d3b"
+					(reference "TP16")
+					(unit 1)
 				)
 			)
 		)
