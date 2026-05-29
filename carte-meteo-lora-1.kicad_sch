@@ -6797,6 +6797,14 @@
 		(at 104.14 184.15)
 		(uuid "e4b701eb-250a-432c-a3d3-215167bfd38b")
 	)
+	(no_connect
+		(at 240.03 149.86)
+		(uuid "eed27cf3-0b5b-4438-9319-2efdb4e09e1a")
+	)
+	(no_connect
+		(at 124.46 67.31)
+		(uuid "f0b26418-a61b-4452-ab29-46fee0920e31")
+	)
 	(wire
 		(pts
 			(xy 214.63 118.11) (xy 215.9 118.11)
@@ -8439,16 +8447,6 @@
 	)
 	(wire
 		(pts
-			(xy 246.38 149.86) (xy 240.03 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "98fd17f4-42d5-472a-8ba3-f2e766b5bd83")
-	)
-	(wire
-		(pts
 			(xy 132.08 49.53) (xy 134.62 49.53)
 		)
 		(stroke
@@ -8996,16 +8994,6 @@
 			(type default)
 		)
 		(uuid "d7bf6bdc-8808-473b-b4c6-a2d66158e5a8")
-	)
-	(wire
-		(pts
-			(xy 132.08 67.31) (xy 124.46 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d9d2ec37-f396-472e-8ca5-8c1715aba387")
 	)
 	(wire
 		(pts
@@ -9617,16 +9605,6 @@
 		)
 		(uuid "7ed83d7e-0a8b-4b9b-befb-4f40e362479c")
 	)
-	(label "ALERT"
-		(at 132.08 67.31 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "835cf7c7-ee56-4ba7-be4a-5ae9014f777d")
-	)
 	(label "BOOT"
 		(at 88.9 72.39 0)
 		(effects
@@ -9636,16 +9614,6 @@
 			(justify left bottom)
 		)
 		(uuid "8c65c623-ebd3-456e-ad58-5692481f92fc")
-	)
-	(label "ALERT"
-		(at 246.38 149.86 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "905e5d1c-8b0d-4f80-92c6-06bfd37cd934")
 	)
 	(label "W_DIR"
 		(at 132.08 64.77 180)
