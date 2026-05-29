@@ -7266,14 +7266,6 @@
 		(path "/a3061adb-c53c-42e0-abe1-a7bdae4a74a9")
 		(sheetname "/")
 		(sheetfile "carte-meteo-lora-1.kicad_sch")
-		(units
-			(unit
-				(name "A")
-				(pins "21" "17" "16" "15" "14" "13" "12" "22" "20" "19" "1" "11" "4"
-					"3" "2" "9" "7" "6" "18" "8" "5" "10"
-				)
-			)
-		)
 		(attr smd)
 		(duplicate_pad_numbers_are_jumpers no)
 		(fp_line
@@ -7360,6 +7352,17 @@
 			(fill yes)
 			(layer "F.SilkS")
 			(uuid "a730d0d8-4948-475b-ad28-b6b5f9842ef4")
+		)
+		(fp_rect
+			(start -7.5 -7.5)
+			(end 7.5 7.5)
+			(stroke
+				(width 0.05)
+				(type solid)
+			)
+			(fill no)
+			(layer "F.CrtYd")
+			(uuid "fde8e060-aaf4-46ae-b47c-17ed20c19d3d")
 		)
 		(fp_text user "LoRa"
 			(at 4.445 5 0)
@@ -7606,6 +7609,17 @@
 			(uuid "4249f5bf-c0b3-4054-ab6b-751d49f5638f")
 		)
 		(embedded_fonts no)
+		(model "/home/galacs/glcs-kicad-libraries/3dmodels/GLCS.3dshapes/WIRELM-SMD_22P-L15.0-W15.0-P1.27_SX1278ZTR47-GC.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -90)
+			)
+		)
 	)
 	(footprint "Button_Switch_SMD:SW_SPST_TS-1088-xR020"
 		(layer "F.Cu")
