@@ -1,4 +1,12 @@
-# Carte meteo lora 1
+# Carte Meteo Lora 1
+
+Solar and battery powered LoRa weather station
+
+## Top preview
+
+## Preview 3d render
+
+## Pictures
 
 ## Pin definitions
 
