@@ -16,7 +16,11 @@ Solar and battery powered LoRa weather station
 
 ## Top preview
 
+<img width="1254" height="850" alt="image" src="https://github.com/user-attachments/assets/5ebe8a58-f0a8-4b58-b20e-9a0a2d850274" />
+
 ## Preview 3d render
+
+<img width="1388" height="797" alt="image" src="https://github.com/user-attachments/assets/c361e7a9-1dff-4442-b063-5578eef9e790" />
 
 ## Pictures
 
