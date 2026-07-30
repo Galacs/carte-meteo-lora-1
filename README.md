@@ -2,6 +2,18 @@
 
 Solar and battery powered LoRa weather station
 
+## IC List
+
+- STM32L431CCT6 (Low power MCU)
+- HT7150 (+3V3 LDO)
+- SX1262TR8 (SX1262 LoRa module)
+- WS2812B (Addressable RGB LED)
+- MS5607 (Pressure sensor)
+- GXHT30 (Humidity and temperature sensor)
+- HTU21D (Humidity and temperature sensor)
+- BQ25798 (1s battery charger with MPPT)
+- TPS6282 (SMPS)
+
 ## Top preview
 
 ## Preview 3d render
